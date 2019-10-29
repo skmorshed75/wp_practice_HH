@@ -1,0 +1,19 @@
+/*
+Theme Name: Launcher
+Theme URI: www.launcher.com
+Author Name: S M Morshed
+Author URI: skmorshed.com
+Description: This is a practice theme of Hasin Hayder's class 4
+Version: 1.0
+Tags: Blog, Education
+License: GNU
+License URI: gnulpl.com
+Text domain: launcher
+*/
+
+
+#fh5co-logo {
+    margin-top: 50px;
+    font-size: 50px;
+    color: #fff;
+}

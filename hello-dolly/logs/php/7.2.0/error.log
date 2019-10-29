@@ -1,0 +1,627 @@
+[15-Oct-2019 02:49:27 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 257
+[15-Oct-2019 02:49:27 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 257
+[16-Oct-2019 16:42:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[16-Oct-2019 16:42:31 UTC] PHP Stack trace:
+[16-Oct-2019 16:42:31 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[16-Oct-2019 16:42:31 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[16-Oct-2019 16:42:31 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[16-Oct-2019 16:42:31 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[16-Oct-2019 16:42:31 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[16-Oct-2019 16:42:31 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[16-Oct-2019 16:42:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[16-Oct-2019 16:42:31 UTC] PHP Stack trace:
+[16-Oct-2019 16:42:31 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[16-Oct-2019 16:42:31 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[16-Oct-2019 16:42:31 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[16-Oct-2019 16:42:31 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[16-Oct-2019 16:42:31 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[16-Oct-2019 16:42:31 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[16-Oct-2019 16:42:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[16-Oct-2019 16:42:31 UTC] PHP Stack trace:
+[16-Oct-2019 16:42:31 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[16-Oct-2019 16:42:31 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[16-Oct-2019 16:42:31 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[16-Oct-2019 16:42:31 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[16-Oct-2019 16:42:31 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[16-Oct-2019 16:42:31 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[16-Oct-2019 16:42:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 180
+[16-Oct-2019 16:42:52 UTC] PHP Stack trace:
+[16-Oct-2019 16:42:52 UTC] PHP   1. {main}() /app/public/wp-admin/themes.php:0
+[16-Oct-2019 16:42:52 UTC] PHP   2. require_once() /app/public/wp-admin/themes.php:10
+[16-Oct-2019 16:42:52 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:253
+[16-Oct-2019 16:42:52 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[16-Oct-2019 16:42:52 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[16-Oct-2019 16:42:52 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /app/public/wp-includes/class-wp-hook.php:286
+[16-Oct-2019 16:42:52 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:743
+[16-Oct-2019 16:42:52 UTC] PHP   8. TGM_Plugin_Activation->get_download_url() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:842
+[16-Oct-2019 16:42:52 UTC] PHP   9. TGM_Plugin_Activation->get_wp_repo_download_url() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:1598
+[16-Oct-2019 16:42:52 UTC] PHP  10. TGM_Plugin_Activation->get_plugins_api() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:1618
+[16-Oct-2019 16:42:52 UTC] PHP  11. plugins_api() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:1643
+[16-Oct-2019 16:42:52 UTC] PHP  12. trigger_error() /app/public/wp-admin/includes/plugin-install.php:180
+[16-Oct-2019 16:44:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[16-Oct-2019 16:44:59 UTC] PHP Stack trace:
+[16-Oct-2019 16:44:59 UTC] PHP   1. {main}() /app/public/wp-admin/themes.php:0
+[16-Oct-2019 16:44:59 UTC] PHP   2. require_once() /app/public/wp-admin/themes.php:10
+[16-Oct-2019 16:44:59 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:253
+[16-Oct-2019 16:44:59 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[16-Oct-2019 16:44:59 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[16-Oct-2019 16:44:59 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /app/public/wp-includes/class-wp-hook.php:286
+[16-Oct-2019 16:44:59 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:743
+[16-Oct-2019 16:44:59 UTC] PHP   8. Plugin_Upgrader->install() /app/public/wp-content/themes/alpha/lib/class-tgm-plugin-activation.php:891
+[16-Oct-2019 16:44:59 UTC] PHP   9. Plugin_Upgrader->run() /app/public/wp-admin/includes/class-plugin-upgrader.php:108
+[16-Oct-2019 16:44:59 UTC] PHP  10. do_action() /app/public/wp-admin/includes/class-wp-upgrader.php:835
+[16-Oct-2019 16:44:59 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[16-Oct-2019 16:44:59 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[16-Oct-2019 16:44:59 UTC] PHP  13. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:284
+[16-Oct-2019 16:44:59 UTC] PHP  14. trigger_error() /app/public/wp-includes/update.php:384
+[17-Oct-2019 15:00:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[17-Oct-2019 15:00:08 UTC] PHP Stack trace:
+[17-Oct-2019 15:00:08 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[17-Oct-2019 15:00:08 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[17-Oct-2019 15:00:08 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[17-Oct-2019 15:00:08 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[17-Oct-2019 15:00:08 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[17-Oct-2019 15:00:08 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[17-Oct-2019 15:00:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[17-Oct-2019 15:00:08 UTC] PHP Stack trace:
+[17-Oct-2019 15:00:08 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[17-Oct-2019 15:00:08 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[17-Oct-2019 15:00:08 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[17-Oct-2019 15:00:08 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[17-Oct-2019 15:00:08 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[17-Oct-2019 15:00:08 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[17-Oct-2019 15:00:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[17-Oct-2019 15:00:08 UTC] PHP Stack trace:
+[17-Oct-2019 15:00:08 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[17-Oct-2019 15:00:08 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[17-Oct-2019 15:00:08 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[17-Oct-2019 15:00:08 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[17-Oct-2019 15:00:08 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[17-Oct-2019 15:00:08 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[19-Oct-2019 03:40:27 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /app/public/wp-content/themes/launcher/launcher.php on line 2
+[19-Oct-2019 03:40:59 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /app/public/wp-content/themes/launcher/launcher.php on line 2
+[19-Oct-2019 03:41:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:44:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:52:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:14
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 14
+[19-Oct-2019 03:52:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:15
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 15
+[19-Oct-2019 03:55:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 310
+[19-Oct-2019 03:55:49 UTC] PHP Stack trace:
+[19-Oct-2019 03:55:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Oct-2019 03:55:49 UTC] PHP   2. require() /app/public/index.php:17
+[19-Oct-2019 03:55:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Oct-2019 03:55:49 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Oct-2019 03:55:49 UTC] PHP   5. the_content() /app/public/wp-content/themes/launcher/launcher.php:29
+[19-Oct-2019 03:55:49 UTC] PHP   6. get_the_content() /app/public/wp-includes/post-template.php:238
+[19-Oct-2019 03:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:53
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 53
+[19-Oct-2019 03:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 16
+[19-Oct-2019 03:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 16
+[19-Oct-2019 03:57:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 16
+[19-Oct-2019 03:59:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 18
+[19-Oct-2019 03:59:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 18
+[19-Oct-2019 04:30:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:18
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 18
+[19-Oct-2019 04:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_headerx() in /app/public/wp-content/themes/launcher/launcher.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 8
+[19-Oct-2019 04:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_headerx() in /app/public/wp-content/themes/launcher/launcher.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 8
+[19-Oct-2019 04:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 21
+[19-Oct-2019 04:36:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 21
+[19-Oct-2019 04:36:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 21
+[19-Oct-2019 04:38:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:27
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 27
+[19-Oct-2019 04:39:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /app/public/wp-content/themes/launcher/launcher.php:27
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 27
+[19-Oct-2019 04:39:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:39:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:39:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:40:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:61
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 61
+[19-Oct-2019 04:41:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:41:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 04:44:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function active_sidebar() in /app/public/wp-content/themes/launcher/launcher.php:60
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/launcher/launcher.php on line 60
+[19-Oct-2019 15:26:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-includes/post-template.php on line 310
+[19-Oct-2019 15:26:16 UTC] PHP Stack trace:
+[19-Oct-2019 15:26:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Oct-2019 15:26:16 UTC] PHP   2. require() /app/public/index.php:17
+[19-Oct-2019 15:26:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Oct-2019 15:26:16 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Oct-2019 15:26:16 UTC] PHP   5. the_content() /app/public/wp-content/themes/launcher/launcher.php:36
+[19-Oct-2019 15:26:16 UTC] PHP   6. get_the_content() /app/public/wp-includes/post-template.php:238
+[20-Oct-2019 15:01:20 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:02:20 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:04:20 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:05:54 UTC] PHP Parse error:  syntax error, unexpected 'main' (T_STRING), expecting ',' or ')' in /app/public/wp-content/themes/launcher/functions.php on line 27
+[20-Oct-2019 15:42:08 UTC] PHP Warning:  Use of undefined constant get_page_template - assumed 'get_page_template' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/launcher/functions.php on line 11
+[20-Oct-2019 15:42:08 UTC] PHP Stack trace:
+[20-Oct-2019 15:42:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[20-Oct-2019 15:42:08 UTC] PHP   2. require() /app/public/index.php:17
+[20-Oct-2019 15:42:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[20-Oct-2019 15:42:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[20-Oct-2019 15:42:08 UTC] PHP   5. get_header() /app/public/wp-content/themes/launcher/launcher.php:8
+[20-Oct-2019 15:42:08 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:41
+[20-Oct-2019 15:42:08 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[20-Oct-2019 15:42:08 UTC] PHP   8. require_once() /app/public/wp-includes/template.php:722
+[20-Oct-2019 15:42:08 UTC] PHP   9. wp_head() /app/public/wp-content/themes/launcher/header.php:6
+[20-Oct-2019 15:42:08 UTC] PHP  10. do_action() /app/public/wp-includes/general-template.php:2745
+[20-Oct-2019 15:42:08 UTC] PHP  11. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[20-Oct-2019 15:42:08 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Oct-2019 15:42:08 UTC] PHP  13. wp_enqueue_scripts() /app/public/wp-includes/class-wp-hook.php:286
+[20-Oct-2019 15:42:08 UTC] PHP  14. do_action() /app/public/wp-includes/script-loader.php:2537
+[20-Oct-2019 15:42:08 UTC] PHP  15. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[20-Oct-2019 15:42:08 UTC] PHP  16. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Oct-2019 15:42:08 UTC] PHP  17. launcher_assets() /app/public/wp-includes/class-wp-hook.php:286
+[22-Oct-2019 17:38:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:11 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:13 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:54 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:40:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:41:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 98
+[22-Oct-2019 17:42:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/alpha/single.php on line 95
+[22-Oct-2019 17:59:30 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/themes/alpha/single.php on line 102
+[22-Oct-2019 17:59:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 102
+[23-Oct-2019 15:32:24 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /app/public/wp-content/themes/alpha/single.php on line 121
+[23-Oct-2019 15:32:24 UTC] PHP Stack trace:
+[23-Oct-2019 15:32:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Oct-2019 15:32:24 UTC] PHP   2. require() /app/public/index.php:17
+[23-Oct-2019 15:32:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Oct-2019 15:32:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Oct-2019 15:32:24 UTC] PHP   5. print_r() /app/public/wp-content/themes/alpha/single.php:121
+[23-Oct-2019 15:32:33 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /app/public/wp-content/themes/alpha/single.php on line 121
+[23-Oct-2019 15:32:33 UTC] PHP Stack trace:
+[23-Oct-2019 15:32:33 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Oct-2019 15:32:33 UTC] PHP   2. require() /app/public/index.php:17
+[23-Oct-2019 15:32:33 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Oct-2019 15:32:33 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Oct-2019 15:32:33 UTC] PHP   5. print_r() /app/public/wp-content/themes/alpha/single.php:121
+[23-Oct-2019 15:34:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 121
+[23-Oct-2019 15:34:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 122
+[23-Oct-2019 15:36:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 122
+[23-Oct-2019 15:36:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/single.php on line 122
+[23-Oct-2019 15:47:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:03:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:06:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:11:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:12:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:97
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 97
+[23-Oct-2019 16:13:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:17:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[23-Oct-2019 16:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:119
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 119
+[24-Oct-2019 17:11:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[24-Oct-2019 17:11:48 UTC] PHP Stack trace:
+[24-Oct-2019 17:11:48 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[24-Oct-2019 17:11:48 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[24-Oct-2019 17:11:48 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[24-Oct-2019 17:11:48 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[24-Oct-2019 17:11:48 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[24-Oct-2019 17:11:48 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[24-Oct-2019 17:11:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[24-Oct-2019 17:11:48 UTC] PHP Stack trace:
+[24-Oct-2019 17:11:48 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[24-Oct-2019 17:11:48 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[24-Oct-2019 17:11:48 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[24-Oct-2019 17:11:48 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[24-Oct-2019 17:11:48 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[24-Oct-2019 17:11:48 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[24-Oct-2019 17:11:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[24-Oct-2019 17:11:48 UTC] PHP Stack trace:
+[24-Oct-2019 17:11:48 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[24-Oct-2019 17:11:48 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[24-Oct-2019 17:11:48 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[24-Oct-2019 17:11:48 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[24-Oct-2019 17:11:48 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[24-Oct-2019 17:11:48 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[24-Oct-2019 17:39:08 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/alpha/single.php on line 128
+[25-Oct-2019 17:29:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[25-Oct-2019 17:29:23 UTC] PHP Stack trace:
+[25-Oct-2019 17:29:23 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Oct-2019 17:29:23 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[25-Oct-2019 17:29:23 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[25-Oct-2019 17:29:23 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Oct-2019 17:29:23 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[25-Oct-2019 17:29:23 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[25-Oct-2019 17:29:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[25-Oct-2019 17:29:23 UTC] PHP Stack trace:
+[25-Oct-2019 17:29:23 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Oct-2019 17:29:23 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[25-Oct-2019 17:29:23 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[25-Oct-2019 17:29:23 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Oct-2019 17:29:23 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[25-Oct-2019 17:29:23 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[25-Oct-2019 17:29:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[25-Oct-2019 17:29:23 UTC] PHP Stack trace:
+[25-Oct-2019 17:29:23 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Oct-2019 17:29:23 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[25-Oct-2019 17:29:23 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[25-Oct-2019 17:29:23 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Oct-2019 17:29:23 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[25-Oct-2019 17:29:23 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[26-Oct-2019 01:55:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/alpha/category-dhaka.php on line 7
+[26-Oct-2019 14:30:24 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /app/public/wp-content/themes/alpha/single.php on line 115
+[26-Oct-2019 14:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:111
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 111
+[26-Oct-2019 14:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /app/public/wp-content/themes/alpha/single.php:111
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/alpha/single.php on line 111
+[26-Oct-2019 16:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enquque_script() in /app/public/wp-content/themes/alpha/functions.php:237
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): alpha_admin_assets('index.php')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'index.php')
+#4 /app/public/wp-admin/index.php(111): include('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/alpha/functions.php on line 237
+[26-Oct-2019 16:25:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enquque_script() in /app/public/wp-content/themes/alpha/functions.php:237
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): alpha_admin_assets('index.php')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'index.php')
+#4 /app/public/wp-admin/index.php(111): include('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/alpha/functions.php on line 237
+[26-Oct-2019 16:25:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enquque_script() in /app/public/wp-content/themes/alpha/functions.php:237
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): alpha_admin_assets('index.php')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'index.php')
+#4 /app/public/wp-admin/index.php(111): include('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/alpha/functions.php on line 237
+[26-Oct-2019 16:28:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enquque_script() in /app/public/wp-content/themes/alpha/functions.php:237
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): alpha_admin_assets('index.php')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'index.php')
+#4 /app/public/wp-admin/index.php(111): include('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/alpha/functions.php on line 237
+[26-Oct-2019 16:29:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enquque_script() in /app/public/wp-content/themes/alpha/functions.php:237
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): alpha_admin_assets('index.php')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'index.php')
+#4 /app/public/wp-admin/index.php(111): include('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/alpha/functions.php on line 237
+[27-Oct-2019 15:47:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[27-Oct-2019 15:47:48 UTC] PHP Stack trace:
+[27-Oct-2019 15:47:48 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[27-Oct-2019 15:47:48 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[27-Oct-2019 15:47:48 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[27-Oct-2019 15:47:48 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[27-Oct-2019 15:47:48 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[27-Oct-2019 15:47:48 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[27-Oct-2019 15:47:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[27-Oct-2019 15:47:48 UTC] PHP Stack trace:
+[27-Oct-2019 15:47:48 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[27-Oct-2019 15:47:48 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[27-Oct-2019 15:47:48 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[27-Oct-2019 15:47:48 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[27-Oct-2019 15:47:48 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[27-Oct-2019 15:47:48 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[27-Oct-2019 15:47:49 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[27-Oct-2019 15:47:49 UTC] PHP Stack trace:
+[27-Oct-2019 15:47:49 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[27-Oct-2019 15:47:49 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[27-Oct-2019 15:47:49 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[27-Oct-2019 15:47:49 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[27-Oct-2019 15:47:49 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[27-Oct-2019 15:47:49 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[28-Oct-2019 15:00:38 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[28-Oct-2019 15:00:38 UTC] PHP Stack trace:
+[28-Oct-2019 15:00:38 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Oct-2019 15:00:38 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[28-Oct-2019 15:00:38 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[28-Oct-2019 15:00:38 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Oct-2019 15:00:38 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[28-Oct-2019 15:00:38 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[28-Oct-2019 15:00:38 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[28-Oct-2019 15:00:38 UTC] PHP Stack trace:
+[28-Oct-2019 15:00:38 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Oct-2019 15:00:38 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[28-Oct-2019 15:00:38 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[28-Oct-2019 15:00:38 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Oct-2019 15:00:38 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[28-Oct-2019 15:00:38 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[28-Oct-2019 15:00:38 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[28-Oct-2019 15:00:38 UTC] PHP Stack trace:
+[28-Oct-2019 15:00:38 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Oct-2019 15:00:38 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[28-Oct-2019 15:00:38 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[28-Oct-2019 15:00:38 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Oct-2019 15:00:38 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[28-Oct-2019 15:00:38 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[28-Oct-2019 16:06:15 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /app/public/wp-content/themes/alpha/functions.php on line 242
+[28-Oct-2019 16:06:51 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_script' (T_STRING) in /app/public/wp-content/themes/alpha/functions.php on line 242
+[29-Oct-2019 16:02:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 7
+[29-Oct-2019 16:02:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 8
+[29-Oct-2019 16:02:48 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 8
+[29-Oct-2019 16:02:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/alpha/page-templates/pricing-table.php on line 8
