@@ -1,0 +1,142 @@
+/*
+Theme Name: Alpha
+Theme URI: http://skmorshed75.com
+Author: S M Morshed
+Author URI: https://learnwith.hasinhayder.com
+Description: Our First HyperMinimal Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, education
+Text Domain: alpha
+*/
+
+h1.heading {
+	font-family: "Arial Black";
+	width: 700px;
+	margin: auto;
+	margin-bottom: 70px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+	font-family: Arial;
+	margin:auto;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	width: 700px;
+	text-align: center;
+}
+
+h2.post-title {
+	margin-bottom: 30px;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+.post p{
+	font-family: "Helvetica Neue";
+	line-height: 1.7em;
+	font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc;
+
+}
+
+.post p img{
+	max-width: 100%;
+	height: auto;
+}
+
+.post:last-child .row:nth-child(2){
+	border-bottom:none;
+}
+
+.footer{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #222;
+	color:#ccc;
+}
+
+.tags li{
+	color: #3D9970;
+}
+
+.post-pagination {
+	margin-bottom: 40px;
+}
+
+.page-header{
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.page-header h1 a{
+	color: #000;
+	text-decoration: none;
+}
+
+.logo{
+	margin: 20px 0;
+}
+
+.logo img {
+	border-radius: 50%;
+}
+
+.errorview {
+	font-weight: 700;
+	color: red;
+	margin: 200px 0;
+}
+
+.dashicons{
+	color: red;
+	font-size: 30px;
+}
+
+.authorsection {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.authorimage img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonials {
+	margin: 50px 0;	
+}
+
+.testimonials img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	border-radius: 50%;
+}
+
+.search-msg {
+	font-weight: 700;
+	/*color: red;*/
+	margin-top: 20px;
+}
+
+.search-highlight{
+	font-weight: 700;
+	color: red;
+	background-color: #FF0;
+}

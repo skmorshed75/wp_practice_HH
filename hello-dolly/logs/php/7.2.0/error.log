@@ -1,0 +1,612 @@
+[18-Nov-2019 07:08:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:08:51 UTC] PHP Stack trace:
+[18-Nov-2019 07:08:51 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:08:51 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:08:51 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:08:51 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:14:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:14:32 UTC] PHP Stack trace:
+[18-Nov-2019 07:14:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:14:32 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:14:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:14:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:17:40 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:17:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:18:26 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:19:30 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:19:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:20:26 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:21:30 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:21:51 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:22:26 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:23:03 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:23:05 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:23:13 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[18-Nov-2019 07:23:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 198
+[18-Nov-2019 07:24:03 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 198
+[18-Nov-2019 07:24:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 198
+[18-Nov-2019 07:25:37 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 198
+[18-Nov-2019 07:26:03 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 199
+[18-Nov-2019 07:26:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/philosophy/functions.php on line 201
+[18-Nov-2019 07:26:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/philosophy/functions.php on line 201
+[18-Nov-2019 07:26:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 199
+[18-Nov-2019 07:26:53 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/philosophy/functions.php on line 201
+[18-Nov-2019 07:27:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/philosophy/functions.php on line 199
+[18-Nov-2019 07:46:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:46:48 UTC] PHP Stack trace:
+[18-Nov-2019 07:46:48 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:46:48 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:46:48 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:46:48 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:46:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:46:50 UTC] PHP Stack trace:
+[18-Nov-2019 07:46:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:46:50 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:46:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:46:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:47:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:47:38 UTC] PHP Stack trace:
+[18-Nov-2019 07:47:38 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:47:38 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:47:38 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:47:38 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:47:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:47:54 UTC] PHP Stack trace:
+[18-Nov-2019 07:47:54 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:47:54 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:47:54 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:47:54 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:47:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:47:56 UTC] PHP Stack trace:
+[18-Nov-2019 07:47:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:47:56 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:47:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:47:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:53:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:53:27 UTC] PHP Stack trace:
+[18-Nov-2019 07:53:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:53:27 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:53:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:53:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 07:54:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 07:54:52 UTC] PHP Stack trace:
+[18-Nov-2019 07:54:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 07:54:52 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 07:54:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 07:54:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 13:34:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 13:34:42 UTC] PHP Stack trace:
+[18-Nov-2019 13:34:42 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 13:34:42 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 13:34:42 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 13:34:42 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:12:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:12:45 UTC] PHP Stack trace:
+[18-Nov-2019 14:12:45 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:12:45 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:12:45 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:12:45 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:20:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:20:56 UTC] PHP Stack trace:
+[18-Nov-2019 14:20:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:20:56 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:20:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:20:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:21:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:21:19 UTC] PHP Stack trace:
+[18-Nov-2019 14:21:19 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:21:19 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:21:19 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:21:19 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:24:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:24:04 UTC] PHP Stack trace:
+[18-Nov-2019 14:24:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:24:04 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:24:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:24:04 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:33:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:33:05 UTC] PHP Stack trace:
+[18-Nov-2019 14:33:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:33:05 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:33:05 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:33:05 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:33:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:33:22 UTC] PHP Stack trace:
+[18-Nov-2019 14:33:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:33:22 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:33:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:33:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:33:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:33:34 UTC] PHP Stack trace:
+[18-Nov-2019 14:33:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:33:34 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:33:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:33:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:34:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:34:24 UTC] PHP Stack trace:
+[18-Nov-2019 14:34:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:34:24 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:34:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:34:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:34:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:34:44 UTC] PHP Stack trace:
+[18-Nov-2019 14:34:44 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:34:44 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:34:44 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:34:44 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:42:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:42:23 UTC] PHP Stack trace:
+[18-Nov-2019 14:42:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:42:23 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:42:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:42:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:42:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:42:32 UTC] PHP Stack trace:
+[18-Nov-2019 14:42:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:42:32 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:42:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:42:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:42:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:42:52 UTC] PHP Stack trace:
+[18-Nov-2019 14:42:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:42:52 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:42:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:42:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:43:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:43:02 UTC] PHP Stack trace:
+[18-Nov-2019 14:43:02 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:43:02 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:43:02 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:43:02 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:44:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:44:07 UTC] PHP Stack trace:
+[18-Nov-2019 14:44:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:44:07 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:44:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:44:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:44:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:44:48 UTC] PHP Stack trace:
+[18-Nov-2019 14:44:48 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:44:48 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:44:48 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:44:48 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:46:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:46:28 UTC] PHP Stack trace:
+[18-Nov-2019 14:46:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:46:28 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:46:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:46:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:47:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:47:19 UTC] PHP Stack trace:
+[18-Nov-2019 14:47:19 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:47:19 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:47:19 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:47:19 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:47:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:47:35 UTC] PHP Stack trace:
+[18-Nov-2019 14:47:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:47:35 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:47:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:47:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:47:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:47:45 UTC] PHP Stack trace:
+[18-Nov-2019 14:47:45 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:47:45 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:47:45 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:47:45 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:48:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:48:11 UTC] PHP Stack trace:
+[18-Nov-2019 14:48:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:48:11 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:48:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:48:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:56:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:56:17 UTC] PHP Stack trace:
+[18-Nov-2019 14:56:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:56:17 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:56:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:56:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:57:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:57:12 UTC] PHP Stack trace:
+[18-Nov-2019 14:57:12 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:57:12 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:57:12 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:57:12 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:57:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:57:14 UTC] PHP Stack trace:
+[18-Nov-2019 14:57:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:57:14 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:57:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:57:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:57:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:57:40 UTC] PHP Stack trace:
+[18-Nov-2019 14:57:40 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:57:40 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:57:40 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:57:40 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:57:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:57:42 UTC] PHP Stack trace:
+[18-Nov-2019 14:57:42 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:57:42 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:57:42 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:57:42 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:59:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:59:34 UTC] PHP Stack trace:
+[18-Nov-2019 14:59:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:59:34 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:59:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:59:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:59:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:59:37 UTC] PHP Stack trace:
+[18-Nov-2019 14:59:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:59:37 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:59:37 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:59:37 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:59:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:59:50 UTC] PHP Stack trace:
+[18-Nov-2019 14:59:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:59:50 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:59:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:59:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 14:59:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 14:59:51 UTC] PHP Stack trace:
+[18-Nov-2019 14:59:51 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 14:59:51 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 14:59:51 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 14:59:51 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:00:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:00:19 UTC] PHP Stack trace:
+[18-Nov-2019 15:00:19 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:00:19 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:00:19 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:00:19 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:00:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:00:21 UTC] PHP Stack trace:
+[18-Nov-2019 15:00:21 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:00:21 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:00:21 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:00:21 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:00:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:00:28 UTC] PHP Stack trace:
+[18-Nov-2019 15:00:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:00:28 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:00:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:00:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:00:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:00:31 UTC] PHP Stack trace:
+[18-Nov-2019 15:00:31 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:00:31 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:00:31 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:00:31 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:01:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:01:04 UTC] PHP Stack trace:
+[18-Nov-2019 15:01:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:01:04 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:01:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:01:04 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:01:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:01:06 UTC] PHP Stack trace:
+[18-Nov-2019 15:01:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:01:06 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:01:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:01:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:02:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:02:38 UTC] PHP Stack trace:
+[18-Nov-2019 15:02:38 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:02:38 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:02:38 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:02:38 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:02:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:02:40 UTC] PHP Stack trace:
+[18-Nov-2019 15:02:40 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:02:40 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:02:40 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:02:40 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:05:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:05:18 UTC] PHP Stack trace:
+[18-Nov-2019 15:05:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:05:18 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:05:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:05:18 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:05:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:05:36 UTC] PHP Stack trace:
+[18-Nov-2019 15:05:36 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:05:36 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:05:36 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:05:36 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:05:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:05:43 UTC] PHP Stack trace:
+[18-Nov-2019 15:05:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:05:43 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:05:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:05:43 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:05:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:05:50 UTC] PHP Stack trace:
+[18-Nov-2019 15:05:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:05:50 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:05:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:05:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:16:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:16:36 UTC] PHP Stack trace:
+[18-Nov-2019 15:16:36 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:16:36 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:16:36 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:16:36 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:19:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:19:46 UTC] PHP Stack trace:
+[18-Nov-2019 15:19:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:19:46 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:19:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:19:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:24:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:24:20 UTC] PHP Stack trace:
+[18-Nov-2019 15:24:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:24:20 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:24:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:24:20 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:25:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:25:23 UTC] PHP Stack trace:
+[18-Nov-2019 15:25:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:25:23 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:25:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:25:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:25:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:25:29 UTC] PHP Stack trace:
+[18-Nov-2019 15:25:29 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:25:29 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:25:29 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:25:29 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:25:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:25:47 UTC] PHP Stack trace:
+[18-Nov-2019 15:25:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:25:47 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:25:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:25:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:27:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:27:24 UTC] PHP Stack trace:
+[18-Nov-2019 15:27:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:27:24 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:27:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:27:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:28:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 69
+[18-Nov-2019 15:28:11 UTC] PHP Stack trace:
+[18-Nov-2019 15:28:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:28:11 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:28:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:28:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:32:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/philosophy/single-book.php on line 70
+[18-Nov-2019 15:32:29 UTC] PHP Stack trace:
+[18-Nov-2019 15:32:29 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:32:29 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:32:29 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:32:29 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:32:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 72
+[18-Nov-2019 15:32:29 UTC] PHP Stack trace:
+[18-Nov-2019 15:32:29 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:32:29 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:32:29 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:32:29 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:33:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:33:27 UTC] PHP Stack trace:
+[18-Nov-2019 15:33:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:33:27 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:33:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:33:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:33:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 72
+[18-Nov-2019 15:33:27 UTC] PHP Stack trace:
+[18-Nov-2019 15:33:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:33:27 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:33:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:33:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:34:35 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:34:35 UTC] PHP Stack trace:
+[18-Nov-2019 15:34:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:34:35 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:34:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:34:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:34:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 74
+[18-Nov-2019 15:34:35 UTC] PHP Stack trace:
+[18-Nov-2019 15:34:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:34:35 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:34:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:34:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:35:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:35:21 UTC] PHP Stack trace:
+[18-Nov-2019 15:35:21 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:35:21 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:35:21 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:35:21 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:35:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 74
+[18-Nov-2019 15:35:21 UTC] PHP Stack trace:
+[18-Nov-2019 15:35:21 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:35:21 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:35:21 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:35:21 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:36:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:36:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function () in /app/public/wp-content/themes/philosophy/single-book.php:71
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:36:16 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/philosophy/single-book.php:71
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:38:02 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/philosophy/single-book.php on line 70
+[18-Nov-2019 15:38:02 UTC] PHP Stack trace:
+[18-Nov-2019 15:38:02 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:38:02 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:38:02 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:38:02 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:38:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function () in /app/public/wp-content/themes/philosophy/single-book.php:71
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:38:04 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/philosophy/single-book.php:71
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/philosophy/single-book.php on line 71
+[18-Nov-2019 15:38:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/philosophy/single-book.php on line 70
+[18-Nov-2019 15:38:20 UTC] PHP Stack trace:
+[18-Nov-2019 15:38:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:38:20 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:38:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:38:20 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:38:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 73
+[18-Nov-2019 15:38:20 UTC] PHP Stack trace:
+[18-Nov-2019 15:38:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:38:20 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:38:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:38:20 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:38:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 73
+[18-Nov-2019 15:38:50 UTC] PHP Stack trace:
+[18-Nov-2019 15:38:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:38:50 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:38:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:38:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:40:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 73
+[18-Nov-2019 15:40:40 UTC] PHP Stack trace:
+[18-Nov-2019 15:40:40 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:40:40 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:40:40 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:40:40 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:41:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 73
+[18-Nov-2019 15:41:27 UTC] PHP Stack trace:
+[18-Nov-2019 15:41:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:41:27 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:41:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:41:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 15:41:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/philosophy/single-book.php on line 73
+[18-Nov-2019 15:41:43 UTC] PHP Stack trace:
+[18-Nov-2019 15:41:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 15:41:43 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 15:41:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 15:41:43 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[18-Nov-2019 16:05:29 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /app/public/wp-content/themes/philosophy/single-book.php on line 74
+[18-Nov-2019 17:57:43 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/philosophy/functions.php on line 196
+[18-Nov-2019 17:57:43 UTC] PHP Stack trace:
+[18-Nov-2019 17:57:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 17:57:43 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 17:57:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 17:57:43 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[18-Nov-2019 17:57:43 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[18-Nov-2019 17:57:43 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[18-Nov-2019 17:57:43 UTC] PHP   7. redirect_canonical() /app/public/wp-includes/class-wp-hook.php:286
+[18-Nov-2019 17:57:43 UTC] PHP   8. redirect_guess_404_permalink() /app/public/wp-includes/canonical.php:146
+[18-Nov-2019 17:57:43 UTC] PHP   9. get_permalink() /app/public/wp-includes/canonical.php:695
+[18-Nov-2019 17:57:43 UTC] PHP  10. get_post_permalink() /app/public/wp-includes/link-template.php:150
+[18-Nov-2019 17:57:43 UTC] PHP  11. apply_filters() /app/public/wp-includes/link-template.php:313
+[18-Nov-2019 17:57:43 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[18-Nov-2019 17:57:43 UTC] PHP  13. philosophy_cpt_slug_fix() /app/public/wp-includes/class-wp-hook.php:288
+[18-Nov-2019 17:57:43 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/philosophy/functions.php on line 196
+[18-Nov-2019 17:57:43 UTC] PHP Stack trace:
+[18-Nov-2019 17:57:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 17:57:43 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 17:57:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 17:57:43 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[18-Nov-2019 17:57:43 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[18-Nov-2019 17:57:43 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[18-Nov-2019 17:57:43 UTC] PHP   7. redirect_canonical() /app/public/wp-includes/class-wp-hook.php:286
+[18-Nov-2019 17:57:43 UTC] PHP   8. redirect_canonical() /app/public/wp-includes/canonical.php:585
+[18-Nov-2019 17:57:43 UTC] PHP   9. redirect_guess_404_permalink() /app/public/wp-includes/canonical.php:146
+[18-Nov-2019 17:57:43 UTC] PHP  10. get_permalink() /app/public/wp-includes/canonical.php:695
+[18-Nov-2019 17:57:43 UTC] PHP  11. get_post_permalink() /app/public/wp-includes/link-template.php:150
+[18-Nov-2019 17:57:43 UTC] PHP  12. apply_filters() /app/public/wp-includes/link-template.php:313
+[18-Nov-2019 17:57:43 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[18-Nov-2019 17:57:43 UTC] PHP  14. philosophy_cpt_slug_fix() /app/public/wp-includes/class-wp-hook.php:288
+[18-Nov-2019 17:57:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/philosophy/functions.php:196) in /app/public/wp-includes/pluggable.php on line 1251
+[18-Nov-2019 17:57:43 UTC] PHP Stack trace:
+[18-Nov-2019 17:57:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 17:57:43 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 17:57:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 17:57:43 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[18-Nov-2019 17:57:43 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[18-Nov-2019 17:57:43 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[18-Nov-2019 17:57:43 UTC] PHP   7. redirect_canonical() /app/public/wp-includes/class-wp-hook.php:286
+[18-Nov-2019 17:57:43 UTC] PHP   8. wp_redirect() /app/public/wp-includes/canonical.php:586
+[18-Nov-2019 17:57:43 UTC] PHP   9. header() /app/public/wp-includes/pluggable.php:1251
+[18-Nov-2019 17:57:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/philosophy/functions.php:196) in /app/public/wp-includes/pluggable.php on line 1254
+[18-Nov-2019 17:57:43 UTC] PHP Stack trace:
+[18-Nov-2019 17:57:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 17:57:43 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 17:57:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 17:57:43 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[18-Nov-2019 17:57:43 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[18-Nov-2019 17:57:43 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[18-Nov-2019 17:57:43 UTC] PHP   7. redirect_canonical() /app/public/wp-includes/class-wp-hook.php:286
+[18-Nov-2019 17:57:43 UTC] PHP   8. wp_redirect() /app/public/wp-includes/canonical.php:586
+[18-Nov-2019 17:57:43 UTC] PHP   9. header() /app/public/wp-includes/pluggable.php:1254
+[18-Nov-2019 17:58:24 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /app/public/wp-content/themes/philosophy/functions.php on line 196
+[18-Nov-2019 17:58:24 UTC] PHP Stack trace:
+[18-Nov-2019 17:58:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[18-Nov-2019 17:58:24 UTC] PHP   2. require() /app/public/index.php:17
+[18-Nov-2019 17:58:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[18-Nov-2019 17:58:24 UTC] PHP   4. do_action() /app/public/wp-includes/template-loader.php:13
+[18-Nov-2019 17:58:24 UTC] PHP   5. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[18-Nov-2019 17:58:24 UTC] PHP   6. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[18-Nov-2019 17:58:24 UTC] PHP   7. redirect_canonical() /app/public/wp-includes/class-wp-hook.php:286
+[18-Nov-2019 17:58:24 UTC] PHP   8. redirect_guess_404_permalink() /app/public/wp-includes/canonical.php:146
+[18-Nov-2019 17:58:24 UTC] PHP   9. get_permalink() /app/public/wp-includes/canonical.php:695
+[18-Nov-2019 17:58:24 UTC] PHP  10. get_post_permalink() /app/public/wp-includes/link-template.php:150
+[18-Nov-2019 17:58:24 UTC] PHP  11. apply_filters() /app/public/wp-includes/link-template.php:313
+[18-Nov-2019 17:58:24 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[18-Nov-2019 17:58:24 UTC] PHP  13. philosophy_cpt_slug_fix() /app/public/wp-includes/class-wp-hook.php:288
+[18-Nov-2019 18:00:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_terms() in /app/public/wp-content/themes/philosophy/functions.php:198
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): philosophy_cpt_slug_fix('http://hellodol...', Object(WP_Post))
+#1 /app/public/wp-includes/plugin.php(208): WP_Hook->apply_filters('http://hellodol...', Array)
+#2 /app/public/wp-includes/link-template.php(313): apply_filters('post_type_link', 'http://hellodol...', Object(WP_Post), false, false)
+#3 /app/public/wp-includes/link-template.php(150): get_post_permalink(Object(WP_Post), false, false)
+#4 /app/public/wp-includes/canonical.php(695): get_permalink(Object(WP_Post))
+#5 /app/public/wp-includes/canonical.php(146): redirect_guess_404_permalink()
+#6 /app/public/wp-includes/class-wp-hook.php(286): redirect_canonical('http://hellodol...')
+#7 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /app/public/wp-includes/template-l in /app/public/wp-content/themes/philosophy/functions.php on line 198
+[18-Nov-2019 18:01:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_type() in /app/public/wp-content/themes/philosophy/functions.php:197
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): philosophy_cpt_slug_fix('http://hellodol...', Object(WP_Post))
+#1 /app/public/wp-includes/plugin.php(208): WP_Hook->apply_filters('http://hellodol...', Array)
+#2 /app/public/wp-includes/link-template.php(313): apply_filters('post_type_link', 'http://hellodol...', Object(WP_Post), false, false)
+#3 /app/public/wp-includes/link-template.php(150): get_post_permalink(Object(WP_Post), false, false)
+#4 /app/public/wp-includes/canonical.php(695): get_permalink(Object(WP_Post))
+#5 /app/public/wp-includes/canonical.php(146): redirect_guess_404_permalink()
+#6 /app/public/wp-includes/class-wp-hook.php(286): redirect_canonical('http://hellodol...')
+#7 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /app/public/wp-includes/template in /app/public/wp-content/themes/philosophy/functions.php on line 197
+[19-Nov-2019 13:48:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[19-Nov-2019 13:48:28 UTC] PHP Stack trace:
+[19-Nov-2019 13:48:28 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[19-Nov-2019 13:48:28 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[19-Nov-2019 13:48:28 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[19-Nov-2019 13:48:28 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[19-Nov-2019 13:48:28 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 13:48:28 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[19-Nov-2019 13:48:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[19-Nov-2019 13:48:29 UTC] PHP Stack trace:
+[19-Nov-2019 13:48:29 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[19-Nov-2019 13:48:29 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[19-Nov-2019 13:48:29 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[19-Nov-2019 13:48:29 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[19-Nov-2019 13:48:29 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 13:48:29 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[19-Nov-2019 13:48:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[19-Nov-2019 13:48:29 UTC] PHP Stack trace:
+[19-Nov-2019 13:48:29 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[19-Nov-2019 13:48:29 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[19-Nov-2019 13:48:29 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[19-Nov-2019 13:48:29 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[19-Nov-2019 13:48:29 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 13:48:29 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
