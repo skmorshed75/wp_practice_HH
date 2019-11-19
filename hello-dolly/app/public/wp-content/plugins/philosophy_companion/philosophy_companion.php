@@ -58,21 +58,43 @@ function philosophy_companion_register_my_cpts_book() {
 
 add_action( 'init', 'philosophy_companion_register_my_cpts_book' );
 
-
+//Class 23.2
 function philosophy_button($attributes){
-    return sprintf('<a target="_blank" class="btn btn--%s full-width" href="%s">%s</a>',
-       $attributes['type'],
-       $attributes['url'],
-       $attributes['title']
+    //Class 23.3
+    $default = array(
+        'type' => 'primary',
+        'title' => __('Button','philosophy'),
+        'url' => ''
     );
+    
+    $button_attributes = shortcode_atts($default,$attributes);
+    
+    return sprintf('<a target="_blank" class="btn btn--%s full-width" href="%s">%s</a>',
+       $button_attributes['type'],
+       $button_attributes['url'],
+       $button_attributes['title']
+    );
+    //End Class 23.3
 }
 add_shortcode('button', 'philosophy_button');
 
-function philosophy_button2($attributes, $content){
-    return sprintf('<a target="_blank" class="btn btn--%s full-width" href="%s">%s</a>',
-       $attributes['type'],
-       $attributes['url'],
-       $content
+function philosophy_button2($attributes, $content = ''){
+    //Class 23.3
+    $default = array(
+        'type' => 'primary',
+        'title' => __('Button','philosophy'),
+        'url' => ''
     );
+    
+    $button_attributes = shortcode_atts($default,$attributes);
+    return sprintf('<a target="_blank" class="btn btn--%s full-width" href="%s">%s</a>',
+        $button_attributes['type'],
+        $button_attributes['url'],
+        $button_attributes['title'],
+        $content
+            
+    );
+    //End Class 23.3
 }
 add_shortcode('button2', 'philosophy_button2');
+// End Class 23.2

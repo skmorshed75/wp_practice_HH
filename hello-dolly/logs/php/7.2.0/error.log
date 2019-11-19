@@ -674,3 +674,6 @@ Stack trace:
 [19-Nov-2019 16:05:56 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
 [19-Nov-2019 16:05:56 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
 [19-Nov-2019 16:05:56 UTC] PHP  11. philosophy_button2() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 16:21:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 65
+[19-Nov-2019 16:23:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 65
+[19-Nov-2019 16:24:41 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 65
