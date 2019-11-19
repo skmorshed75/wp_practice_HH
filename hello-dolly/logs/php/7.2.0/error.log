@@ -610,3 +610,67 @@ Stack trace:
 [19-Nov-2019 13:48:29 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
 [19-Nov-2019 13:48:29 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
 [19-Nov-2019 13:48:29 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[19-Nov-2019 15:52:37 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 67
+[19-Nov-2019 15:52:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 67
+[19-Nov-2019 15:52:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 67
+[19-Nov-2019 15:53:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 67
+[19-Nov-2019 15:53:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 67
+[19-Nov-2019 15:53:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 67
+[19-Nov-2019 15:54:51 UTC] PHP Notice:  Undefined index: title in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 66
+[19-Nov-2019 15:54:51 UTC] PHP Stack trace:
+[19-Nov-2019 15:54:51 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 15:54:51 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 15:54:51 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 15:54:51 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 15:54:51 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 15:54:51 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 15:54:51 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 15:54:51 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 15:54:51 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 15:54:51 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 15:54:51 UTC] PHP  11. philosophy_button() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 15:56:27 UTC] PHP Notice:  Undefined index: title in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 66
+[19-Nov-2019 15:56:27 UTC] PHP Stack trace:
+[19-Nov-2019 15:56:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 15:56:27 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 15:56:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 15:56:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 15:56:27 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 15:56:27 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 15:56:27 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 15:56:27 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 15:56:27 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 15:56:27 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 15:56:27 UTC] PHP  11. philosophy_button() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 15:56:33 UTC] PHP Notice:  Undefined index: title in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 66
+[19-Nov-2019 15:56:33 UTC] PHP Stack trace:
+[19-Nov-2019 15:56:33 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 15:56:33 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 15:56:33 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 15:56:33 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 15:56:33 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 15:56:33 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 15:56:33 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 15:56:33 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 15:56:33 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 15:56:33 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 15:56:33 UTC] PHP  11. philosophy_button() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 15:59:07 UTC] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING), expecting ',' or ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 63
+[19-Nov-2019 15:59:08 UTC] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING), expecting ',' or ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 63
+[19-Nov-2019 15:59:23 UTC] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING), expecting ',' or ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 63
+[19-Nov-2019 15:59:23 UTC] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING), expecting ',' or ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 63
+[19-Nov-2019 15:59:23 UTC] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING), expecting ',' or ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 63
+[19-Nov-2019 16:00:07 UTC] PHP Parse error:  syntax error, unexpected '_blank' (T_STRING), expecting ',' or ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 63
+[19-Nov-2019 16:05:56 UTC] PHP Notice:  Undefined index: url in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 74
+[19-Nov-2019 16:05:56 UTC] PHP Stack trace:
+[19-Nov-2019 16:05:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 16:05:56 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 16:05:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 16:05:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 16:05:56 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 16:05:56 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 16:05:56 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 16:05:56 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 16:05:56 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 16:05:56 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 16:05:56 UTC] PHP  11. philosophy_button2() /app/public/wp-includes/shortcodes.php:325

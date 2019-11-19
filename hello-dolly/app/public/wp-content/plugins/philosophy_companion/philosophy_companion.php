@@ -57,3 +57,22 @@ function philosophy_companion_register_my_cpts_book() {
 }
 
 add_action( 'init', 'philosophy_companion_register_my_cpts_book' );
+
+
+function philosophy_button($attributes){
+    return sprintf('<a target="_blank" class="btn btn--%s full-width" href="%s">%s</a>',
+       $attributes['type'],
+       $attributes['url'],
+       $attributes['title']
+    );
+}
+add_shortcode('button', 'philosophy_button');
+
+function philosophy_button2($attributes, $content){
+    return sprintf('<a target="_blank" class="btn btn--%s full-width" href="%s">%s</a>',
+       $attributes['type'],
+       $attributes['url'],
+       $content
+    );
+}
+add_shortcode('button2', 'philosophy_button2');
