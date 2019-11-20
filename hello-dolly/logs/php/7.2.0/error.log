@@ -779,3 +779,76 @@ Stack trace:
 [20-Nov-2019 16:57:17 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
 [20-Nov-2019 16:57:17 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
 [20-Nov-2019 16:57:17 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[20-Nov-2019 17:51:08 UTC] PHP Warning:  require_once(/app/public/wp-content/plugins/philosophy_companion/map_ui.php): failed to open stream: No such file or directory in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:08 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:08 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:08 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:08 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:08 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:08 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/plugins/philosophy_companion/map_ui.php' (include_path='.:') in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:08 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:08 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:08 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:08 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:08 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:08 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:27 UTC] PHP Warning:  require_once(/app/public/wp-content/plugins/philosophy_companion/map_ui.php): failed to open stream: No such file or directory in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:27 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:27 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:27 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:27 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:27 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:27 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/plugins/philosophy_companion/map_ui.php' (include_path='.:') in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:27 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:27 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:27 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:27 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:27 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:27 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:30 UTC] PHP Warning:  require_once(/app/public/wp-content/plugins/philosophy_companion/map_ui.php): failed to open stream: No such file or directory in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:30 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:30 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:30 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:30 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:30 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:30 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/plugins/philosophy_companion/map_ui.php' (include_path='.:') in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:30 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:30 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:30 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:30 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:30 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:30 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:31 UTC] PHP Warning:  require_once(/app/public/wp-content/plugins/philosophy_companion/map_ui.php): failed to open stream: No such file or directory in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:31 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:31 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[20-Nov-2019 17:51:31 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[20-Nov-2019 17:51:31 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[20-Nov-2019 17:51:31 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:31 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:31 UTC] PHP   6. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/plugins/philosophy_companion/map_ui.php' (include_path='.:') in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:31 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:31 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[20-Nov-2019 17:51:31 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[20-Nov-2019 17:51:31 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[20-Nov-2019 17:51:31 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:31 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:31 UTC] PHP   6. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:31 UTC] PHP Warning:  require_once(/app/public/wp-content/plugins/philosophy_companion/map_ui.php): failed to open stream: No such file or directory in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:31 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:31 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:31 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:31 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:31 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:31 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:51:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/app/public/wp-content/plugins/philosophy_companion/map_ui.php' (include_path='.:') in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 14
+[20-Nov-2019 17:51:31 UTC] PHP Stack trace:
+[20-Nov-2019 17:51:31 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2019 17:51:31 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2019 17:51:31 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[20-Nov-2019 17:51:31 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[20-Nov-2019 17:51:31 UTC] PHP   5. include_once() /app/public/wp-settings.php:362
+[20-Nov-2019 17:52:06 UTC] PHP Parse error:  syntax error, unexpected ''listItemImage'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/plugins/philosophy_companion/gmap_ui.php on line 33

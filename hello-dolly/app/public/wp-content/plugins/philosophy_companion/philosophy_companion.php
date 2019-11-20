@@ -10,6 +10,10 @@ License: GPLV2
 Text Domain: philosophy-companion
 */
 
+//Class 23.6
+require_once dirname(__FILE__)."/gmap_ui.php";
+//End Class 23.6
+
 function philosophy_companion_register_my_cpts_book() {
 
 	/**
