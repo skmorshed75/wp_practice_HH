@@ -104,3 +104,30 @@ function philosophy_uppercase($attributes, $content=''){
 }
 add_shortcode('uc','philosophy_uppercase');
 //End of Class 23.4
+
+//Class 23.5
+function philosophy_google_map($attributes){
+    $default = array(
+        'place' => 'Uttara Sector 14',
+        'width' => '800',
+        'height' => '500',
+        'zoom'  => '14'
+    );
+    
+    $params = shortcode_atts($default,$attributes);
+    
+    $map = <<<EOD
+    <div>
+        <div>
+            <iframe width="{$params['width']}" height="{$params['height']}"
+                src="https://maps.google.com/maps?q={$params['place']}&t=&z={$params['zoom']}&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+        </div>
+    </div>    
+EOD;
+    
+    return $map;
+}
+add_shortcode('gmap','philosophy_google_map');
+//End Class 23.5

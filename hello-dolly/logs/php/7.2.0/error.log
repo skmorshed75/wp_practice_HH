@@ -677,3 +677,105 @@ Stack trace:
 [19-Nov-2019 16:21:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 65
 [19-Nov-2019 16:23:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 65
 [19-Nov-2019 16:24:41 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 65
+[19-Nov-2019 17:38:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 127
+[19-Nov-2019 17:43:16 UTC] PHP Notice:  Undefined index: zoom in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 120
+[19-Nov-2019 17:43:16 UTC] PHP Stack trace:
+[19-Nov-2019 17:43:16 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 17:43:16 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 17:43:16 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 17:43:16 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 17:43:16 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 17:43:16 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 17:43:16 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 17:43:16 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 17:43:16 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:43:16 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:43:16 UTC] PHP  11. philosophy_google_map() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 17:44:31 UTC] PHP Notice:  Undefined index: zoom in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 120
+[19-Nov-2019 17:44:31 UTC] PHP Stack trace:
+[19-Nov-2019 17:44:31 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 17:44:31 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 17:44:31 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 17:44:31 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 17:44:31 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 17:44:31 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 17:44:31 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 17:44:31 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 17:44:31 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:44:31 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:44:31 UTC] PHP  11. philosophy_google_map() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 17:44:40 UTC] PHP Notice:  Undefined index: zoom in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 120
+[19-Nov-2019 17:44:40 UTC] PHP Stack trace:
+[19-Nov-2019 17:44:40 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 17:44:40 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 17:44:40 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 17:44:40 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 17:44:40 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 17:44:40 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 17:44:40 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 17:44:40 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 17:44:40 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:44:40 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:44:40 UTC] PHP  11. philosophy_google_map() /app/public/wp-includes/shortcodes.php:325
+[19-Nov-2019 17:46:01 UTC] PHP Notice:  Undefined index:  in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 120
+[19-Nov-2019 17:46:01 UTC] PHP Stack trace:
+[19-Nov-2019 17:46:01 UTC] PHP   1. {main}() /app/public/index.php:0
+[19-Nov-2019 17:46:01 UTC] PHP   2. require() /app/public/index.php:17
+[19-Nov-2019 17:46:01 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[19-Nov-2019 17:46:01 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[19-Nov-2019 17:46:01 UTC] PHP   5. the_content() /app/public/wp-content/themes/philosophy/single.php:34
+[19-Nov-2019 17:46:01 UTC] PHP   6. apply_filters() /app/public/wp-includes/post-template.php:247
+[19-Nov-2019 17:46:01 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[19-Nov-2019 17:46:01 UTC] PHP   8. do_shortcode() /app/public/wp-includes/class-wp-hook.php:286
+[19-Nov-2019 17:46:01 UTC] PHP   9. preg_replace_callback() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:46:01 UTC] PHP  10. do_shortcode_tag() /app/public/wp-includes/shortcodes.php:199
+[19-Nov-2019 17:46:01 UTC] PHP  11. philosophy_google_map() /app/public/wp-includes/shortcodes.php:325
+[20-Nov-2019 13:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[20-Nov-2019 13:04:37 UTC] PHP Stack trace:
+[20-Nov-2019 13:04:37 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[20-Nov-2019 13:04:37 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[20-Nov-2019 13:04:37 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[20-Nov-2019 13:04:37 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Nov-2019 13:04:37 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[20-Nov-2019 13:04:37 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[20-Nov-2019 13:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[20-Nov-2019 13:04:37 UTC] PHP Stack trace:
+[20-Nov-2019 13:04:37 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[20-Nov-2019 13:04:37 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[20-Nov-2019 13:04:37 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[20-Nov-2019 13:04:37 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Nov-2019 13:04:37 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[20-Nov-2019 13:04:37 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[20-Nov-2019 13:04:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[20-Nov-2019 13:04:37 UTC] PHP Stack trace:
+[20-Nov-2019 13:04:37 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[20-Nov-2019 13:04:37 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[20-Nov-2019 13:04:37 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[20-Nov-2019 13:04:37 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Nov-2019 13:04:37 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[20-Nov-2019 13:04:37 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[20-Nov-2019 13:07:44 UTC] PHP Parse error:  syntax error, unexpected ''width'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/plugins/philosophy_companion/philosophy_companion.php on line 112
+[20-Nov-2019 16:57:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[20-Nov-2019 16:57:16 UTC] PHP Stack trace:
+[20-Nov-2019 16:57:16 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[20-Nov-2019 16:57:16 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[20-Nov-2019 16:57:16 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[20-Nov-2019 16:57:16 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Nov-2019 16:57:16 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[20-Nov-2019 16:57:16 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[20-Nov-2019 16:57:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[20-Nov-2019 16:57:16 UTC] PHP Stack trace:
+[20-Nov-2019 16:57:16 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[20-Nov-2019 16:57:16 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[20-Nov-2019 16:57:16 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[20-Nov-2019 16:57:16 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Nov-2019 16:57:16 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[20-Nov-2019 16:57:16 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[20-Nov-2019 16:57:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[20-Nov-2019 16:57:17 UTC] PHP Stack trace:
+[20-Nov-2019 16:57:17 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[20-Nov-2019 16:57:17 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[20-Nov-2019 16:57:17 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[20-Nov-2019 16:57:17 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[20-Nov-2019 16:57:17 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[20-Nov-2019 16:57:17 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
