@@ -5,6 +5,10 @@ require_once(get_theme_file_path("/inc/tgm.php"));
 require_once(get_theme_file_path("/inc/attachments.php"));
 require_once( get_theme_file_path( "/widgets/social-icons-widget.php" ) );
 require_once( get_theme_file_path( "/inc/cmb2-attached-posts.php" ) ); //Class 21.12
+require_once( get_theme_file_path( "/lib/csf/cs-framework.php" ) ); //Class 24.1 Codestar Framework
+require_once( get_theme_file_path( "/inc/cs.php" ) ); //Class 24.2 Codestar Framework
+
+
 if ( ! isset( $content_width ) ) $content_width = 960;
 
 //echo site_url();
