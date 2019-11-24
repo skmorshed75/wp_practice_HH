@@ -8,6 +8,7 @@ require_once( get_theme_file_path( "/inc/cmb2-attached-posts.php" ) ); //Class 2
 require_once( get_theme_file_path( "/lib/csf/cs-framework.php" ) ); //Class 24.1 Codestar Framework
 require_once( get_theme_file_path( "/inc/cs.php" ) ); //Class 24.2 Codestar Framework
 
+define("CS_ACTIVE_LIGHT_THEME", true); //Class 24.2
 
 if ( ! isset( $content_width ) ) $content_width = 960;
 

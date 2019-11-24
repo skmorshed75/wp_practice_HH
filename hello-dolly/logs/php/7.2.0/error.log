@@ -1011,3 +1011,510 @@ Stack trace:
 [21-Nov-2019 16:28:57 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 35
 [21-Nov-2019 16:30:35 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 41
 [21-Nov-2019 16:30:57 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 41
+[22-Nov-2019 17:05:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[22-Nov-2019 17:05:03 UTC] PHP Stack trace:
+[22-Nov-2019 17:05:03 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[22-Nov-2019 17:05:03 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[22-Nov-2019 17:05:03 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[22-Nov-2019 17:05:03 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[22-Nov-2019 17:05:03 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[22-Nov-2019 17:05:03 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[22-Nov-2019 17:05:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[22-Nov-2019 17:05:03 UTC] PHP Stack trace:
+[22-Nov-2019 17:05:03 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[22-Nov-2019 17:05:03 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[22-Nov-2019 17:05:03 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[22-Nov-2019 17:05:03 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[22-Nov-2019 17:05:03 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[22-Nov-2019 17:05:03 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[22-Nov-2019 17:05:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[22-Nov-2019 17:05:03 UTC] PHP Stack trace:
+[22-Nov-2019 17:05:03 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[22-Nov-2019 17:05:03 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[22-Nov-2019 17:05:03 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[22-Nov-2019 17:05:03 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[22-Nov-2019 17:05:03 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[22-Nov-2019 17:05:03 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[23-Nov-2019 03:39:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 75
+[23-Nov-2019 03:39:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 75
+[23-Nov-2019 03:40:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 75
+[23-Nov-2019 03:40:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 75
+[23-Nov-2019 03:40:40 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 76
+[23-Nov-2019 03:41:51 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 49
+[23-Nov-2019 03:42:02 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[23-Nov-2019 03:42:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 50
+[23-Nov-2019 03:43:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 50
+[23-Nov-2019 03:43:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 51
+[23-Nov-2019 03:44:50 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 50
+[23-Nov-2019 03:44:51 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 50
+[23-Nov-2019 04:02:59 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:02:59 UTC] PHP Stack trace:
+[23-Nov-2019 04:02:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:02:59 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:02:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:02:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:02:59 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:02:59 UTC] PHP Stack trace:
+[23-Nov-2019 04:02:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:02:59 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:02:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:02:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:05:18 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:05:18 UTC] PHP Stack trace:
+[23-Nov-2019 04:05:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:05:18 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:05:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:05:18 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:05:18 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:05:18 UTC] PHP Stack trace:
+[23-Nov-2019 04:05:18 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:05:18 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:05:18 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:05:18 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:06:37 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:06:37 UTC] PHP Stack trace:
+[23-Nov-2019 04:06:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:06:37 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:06:37 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:06:37 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:06:37 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:06:37 UTC] PHP Stack trace:
+[23-Nov-2019 04:06:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:06:37 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:06:37 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:06:37 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:21:28 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:21:28 UTC] PHP Stack trace:
+[23-Nov-2019 04:21:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:21:28 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:21:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:21:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:21:28 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:21:28 UTC] PHP Stack trace:
+[23-Nov-2019 04:21:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:21:28 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:21:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:21:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:23:32 UTC] PHP Warning:  Illegal string offset 'page-treaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:23:32 UTC] PHP Stack trace:
+[23-Nov-2019 04:23:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:23:32 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:23:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:23:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:23:32 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[23-Nov-2019 04:23:32 UTC] PHP Stack trace:
+[23-Nov-2019 04:23:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:23:32 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:23:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:23:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:25:13 UTC] PHP Notice:  Undefined variable: philosophy_post_meta in /app/public/wp-content/themes/philosophy/page.php on line 41
+[23-Nov-2019 04:25:13 UTC] PHP Stack trace:
+[23-Nov-2019 04:25:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:25:13 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:25:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:25:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:27:13 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 41
+[23-Nov-2019 04:27:13 UTC] PHP Stack trace:
+[23-Nov-2019 04:27:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:27:13 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:27:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:27:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[23-Nov-2019 04:27:13 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 41
+[23-Nov-2019 04:27:13 UTC] PHP Stack trace:
+[23-Nov-2019 04:27:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[23-Nov-2019 04:27:13 UTC] PHP   2. require() /app/public/index.php:17
+[23-Nov-2019 04:27:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[23-Nov-2019 04:27:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:15:15 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 41
+[24-Nov-2019 15:15:15 UTC] PHP Stack trace:
+[24-Nov-2019 15:15:15 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:15:15 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:15:15 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:15:15 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:15:15 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 41
+[24-Nov-2019 15:15:15 UTC] PHP Stack trace:
+[24-Nov-2019 15:15:15 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:15:15 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:15:15 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:15:15 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:16:59 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:16:59 UTC] PHP Stack trace:
+[24-Nov-2019 15:16:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:16:59 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:16:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:16:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:16:59 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:16:59 UTC] PHP Stack trace:
+[24-Nov-2019 15:16:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:16:59 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:16:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:16:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:16:59 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:16:59 UTC] PHP Stack trace:
+[24-Nov-2019 15:16:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:16:59 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:16:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:16:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:16:59 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:16:59 UTC] PHP Stack trace:
+[24-Nov-2019 15:16:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:16:59 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:16:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:16:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:19:24 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:19:24 UTC] PHP Stack trace:
+[24-Nov-2019 15:19:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:19:24 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:19:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:19:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:19:24 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:19:24 UTC] PHP Stack trace:
+[24-Nov-2019 15:19:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:19:24 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:19:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:19:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:19:24 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:19:24 UTC] PHP Stack trace:
+[24-Nov-2019 15:19:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:19:24 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:19:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:19:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:19:24 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:19:24 UTC] PHP Stack trace:
+[24-Nov-2019 15:19:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:19:24 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:19:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:19:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:20:55 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:20:55 UTC] PHP Stack trace:
+[24-Nov-2019 15:20:55 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:20:55 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:20:55 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:20:55 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:20:55 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:20:55 UTC] PHP Stack trace:
+[24-Nov-2019 15:20:55 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:20:55 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:20:55 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:20:55 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:20:55 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:20:55 UTC] PHP Stack trace:
+[24-Nov-2019 15:20:55 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:20:55 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:20:55 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:20:55 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:20:55 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:20:55 UTC] PHP Stack trace:
+[24-Nov-2019 15:20:55 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:20:55 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:20:55 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:20:55 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:22:08 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:22:08 UTC] PHP Stack trace:
+[24-Nov-2019 15:22:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:22:08 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:22:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:22:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:22:08 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:22:08 UTC] PHP Stack trace:
+[24-Nov-2019 15:22:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:22:08 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:22:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:22:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:22:08 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:22:08 UTC] PHP Stack trace:
+[24-Nov-2019 15:22:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:22:08 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:22:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:22:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:22:08 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:22:08 UTC] PHP Stack trace:
+[24-Nov-2019 15:22:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:22:08 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:22:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:22:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:23:34 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:23:34 UTC] PHP Stack trace:
+[24-Nov-2019 15:23:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:23:34 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:23:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:23:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:23:34 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:23:34 UTC] PHP Stack trace:
+[24-Nov-2019 15:23:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:23:34 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:23:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:23:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:23:34 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:23:34 UTC] PHP Stack trace:
+[24-Nov-2019 15:23:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:23:34 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:23:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:23:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:23:34 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:23:34 UTC] PHP Stack trace:
+[24-Nov-2019 15:23:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:23:34 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:23:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:23:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:24:25 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:24:25 UTC] PHP Stack trace:
+[24-Nov-2019 15:24:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:24:25 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:24:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:24:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:24:25 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:24:25 UTC] PHP Stack trace:
+[24-Nov-2019 15:24:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:24:25 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:24:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:24:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:24:25 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:24:25 UTC] PHP Stack trace:
+[24-Nov-2019 15:24:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:24:25 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:24:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:24:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:24:25 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:24:25 UTC] PHP Stack trace:
+[24-Nov-2019 15:24:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:24:25 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:24:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:24:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:11 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:25:11 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:11 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:11 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:25:11 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:11 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:11 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:25:11 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:11 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:11 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:25:11 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:11 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:11 UTC] PHP Warning:  Illegal string offset 'is-favorite' in /app/public/wp-content/themes/philosophy/page.php on line 42
+[24-Nov-2019 15:25:11 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:11 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:11 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 42
+[24-Nov-2019 15:25:11 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:11 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:48 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:25:48 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:48 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:48 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:48 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:48 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:48 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:25:48 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:48 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:48 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:48 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:48 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:48 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:25:48 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:48 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:48 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:48 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:48 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:25:48 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:25:48 UTC] PHP Stack trace:
+[24-Nov-2019 15:25:48 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:25:48 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:25:48 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:25:48 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:27:06 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:27:06 UTC] PHP Stack trace:
+[24-Nov-2019 15:27:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:27:06 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:27:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:27:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:27:06 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:27:06 UTC] PHP Stack trace:
+[24-Nov-2019 15:27:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:27:06 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:27:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:27:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:27:06 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:27:06 UTC] PHP Stack trace:
+[24-Nov-2019 15:27:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:27:06 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:27:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:27:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:27:06 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:27:06 UTC] PHP Stack trace:
+[24-Nov-2019 15:27:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:27:06 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:27:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:27:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:27:19 UTC] PHP Parse error:  syntax error, unexpected '[', expecting '(' in /app/public/wp-content/themes/philosophy/page.php on line 37
+[24-Nov-2019 15:34:07 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:34:07 UTC] PHP Stack trace:
+[24-Nov-2019 15:34:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:34:07 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:34:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:34:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:34:07 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 38
+[24-Nov-2019 15:34:07 UTC] PHP Stack trace:
+[24-Nov-2019 15:34:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:34:07 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:34:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:34:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:34:07 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:34:07 UTC] PHP Stack trace:
+[24-Nov-2019 15:34:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:34:07 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:34:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:34:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:34:07 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 39
+[24-Nov-2019 15:34:07 UTC] PHP Stack trace:
+[24-Nov-2019 15:34:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:34:07 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:34:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:34:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:39:42 UTC] PHP Notice:  Undefined variable: philosophy_page_meta in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:39:42 UTC] PHP Stack trace:
+[24-Nov-2019 15:39:42 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:39:42 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:39:42 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:39:42 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:40:26 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:40:26 UTC] PHP Stack trace:
+[24-Nov-2019 15:40:26 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:40:26 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:40:26 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:40:26 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:40:26 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:40:26 UTC] PHP Stack trace:
+[24-Nov-2019 15:40:26 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:40:26 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:40:26 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:40:26 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:40:54 UTC] PHP Warning:  Illegal string offset 'page-heading1' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:40:54 UTC] PHP Stack trace:
+[24-Nov-2019 15:40:54 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:40:54 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:40:54 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:40:54 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:40:54 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:40:54 UTC] PHP Stack trace:
+[24-Nov-2019 15:40:54 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:40:54 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:40:54 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:40:54 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:41:56 UTC] PHP Warning:  Illegal string offset 'page-section1' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:41:56 UTC] PHP Stack trace:
+[24-Nov-2019 15:41:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:41:56 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:41:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:41:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:41:56 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:41:56 UTC] PHP Stack trace:
+[24-Nov-2019 15:41:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:41:56 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:41:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:41:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:45:19 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 50
+[24-Nov-2019 15:45:24 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 50
+[24-Nov-2019 15:49:51 UTC] PHP Warning:  Illegal string offset 'page-section1' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:49:51 UTC] PHP Stack trace:
+[24-Nov-2019 15:49:51 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:49:51 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:49:51 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:49:51 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:49:51 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:49:51 UTC] PHP Stack trace:
+[24-Nov-2019 15:49:51 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:49:51 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:49:51 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:49:51 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:52:56 UTC] PHP Warning:  Illegal string offset 'page-section1' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:52:56 UTC] PHP Stack trace:
+[24-Nov-2019 15:52:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:52:56 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:52:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:52:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:52:56 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:52:56 UTC] PHP Stack trace:
+[24-Nov-2019 15:52:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:52:56 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:52:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:52:56 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:56:06 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:56:06 UTC] PHP Stack trace:
+[24-Nov-2019 15:56:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:56:06 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:56:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:56:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:56:06 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:56:06 UTC] PHP Stack trace:
+[24-Nov-2019 15:56:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:56:06 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:56:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:56:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:59:17 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:59:17 UTC] PHP Stack trace:
+[24-Nov-2019 15:59:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:59:17 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:59:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:59:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 15:59:17 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 15:59:17 UTC] PHP Stack trace:
+[24-Nov-2019 15:59:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 15:59:17 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 15:59:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 15:59:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 16:00:31 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 16:00:31 UTC] PHP Stack trace:
+[24-Nov-2019 16:00:31 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 16:00:31 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 16:00:31 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 16:00:31 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 16:00:31 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 16:00:31 UTC] PHP Stack trace:
+[24-Nov-2019 16:00:31 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 16:00:31 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 16:00:31 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 16:00:31 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 16:01:50 UTC] PHP Warning:  Illegal string offset 'page-heading' in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 16:01:50 UTC] PHP Stack trace:
+[24-Nov-2019 16:01:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 16:01:50 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 16:01:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 16:01:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 16:01:50 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 40
+[24-Nov-2019 16:01:50 UTC] PHP Stack trace:
+[24-Nov-2019 16:01:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 16:01:50 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 16:01:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 16:01:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 16:01:50 UTC] PHP Warning:  Illegal string offset 'page-teaser' in /app/public/wp-content/themes/philosophy/page.php on line 41
+[24-Nov-2019 16:01:50 UTC] PHP Stack trace:
+[24-Nov-2019 16:01:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 16:01:50 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 16:01:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 16:01:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[24-Nov-2019 16:01:50 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/philosophy/page.php on line 41
+[24-Nov-2019 16:01:50 UTC] PHP Stack trace:
+[24-Nov-2019 16:01:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[24-Nov-2019 16:01:50 UTC] PHP   2. require() /app/public/index.php:17
+[24-Nov-2019 16:01:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[24-Nov-2019 16:01:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
