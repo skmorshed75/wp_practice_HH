@@ -40,7 +40,7 @@ get_header();
             echo esc_html($philosophy_page_meta['page-heading'])."<br/>";
             echo esc_html($philosophy_page_meta['page-teaser'])."<br/>";
             if($philosophy_page_meta['is-favourite']){
-                echo 'Switcher on';
+                echo esc_html($philosophy_page_meta['page-favourite-text']);
             } else {
                 echo 'Switcher off';
             }

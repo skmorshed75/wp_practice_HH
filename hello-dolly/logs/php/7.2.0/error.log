@@ -1518,3 +1518,53 @@ Stack trace:
 [24-Nov-2019 16:01:50 UTC] PHP   2. require() /app/public/index.php:17
 [24-Nov-2019 16:01:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
 [24-Nov-2019 16:01:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[25-Nov-2019 06:23:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[25-Nov-2019 06:23:06 UTC] PHP Stack trace:
+[25-Nov-2019 06:23:06 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Nov-2019 06:23:06 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[25-Nov-2019 06:23:06 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[25-Nov-2019 06:23:06 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Nov-2019 06:23:06 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[25-Nov-2019 06:23:06 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[25-Nov-2019 06:23:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[25-Nov-2019 06:23:06 UTC] PHP Stack trace:
+[25-Nov-2019 06:23:06 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Nov-2019 06:23:06 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[25-Nov-2019 06:23:06 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[25-Nov-2019 06:23:06 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Nov-2019 06:23:06 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[25-Nov-2019 06:23:06 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384
+[25-Nov-2019 06:23:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[25-Nov-2019 06:23:06 UTC] PHP Stack trace:
+[25-Nov-2019 06:23:06 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Nov-2019 06:23:06 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[25-Nov-2019 06:23:06 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[25-Nov-2019 06:23:06 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Nov-2019 06:23:06 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[25-Nov-2019 06:23:06 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[25-Nov-2019 06:53:37 UTC] PHP Parse error:  syntax error, unexpected ''dependency'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 06:54:57 UTC] PHP Parse error:  syntax error, unexpected ''dependency'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 06:54:58 UTC] PHP Parse error:  syntax error, unexpected ''dependency'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 06:54:58 UTC] PHP Parse error:  syntax error, unexpected ''dependency'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 06:59:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 06:59:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 06:59:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 07:00:54 UTC] PHP Parse error:  syntax error, unexpected ''attributes'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 70
+[25-Nov-2019 07:01:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 07:08:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/philosophy/inc/cs.php on line 74
+[25-Nov-2019 07:08:21 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/philosophy/lib/csf/fields/checkbox/checkbox.php on line 29
+[25-Nov-2019 07:08:21 UTC] PHP Stack trace:
+[25-Nov-2019 07:08:21 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[25-Nov-2019 07:08:21 UTC] PHP   2. include() /app/public/wp-admin/post.php:197
+[25-Nov-2019 07:08:21 UTC] PHP   3. do_meta_boxes() /app/public/wp-admin/edit-form-advanced.php:642
+[25-Nov-2019 07:08:21 UTC] PHP   4. CSFramework_Metabox->render_meta_box_content() /app/public/wp-admin/includes/template.php:1310
+[25-Nov-2019 07:08:21 UTC] PHP   5. cs_add_element() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:129
+[25-Nov-2019 07:08:21 UTC] PHP   6. CSFramework_Option_checkbox->output() /app/public/wp-content/themes/philosophy/lib/csf/functions/helpers.php:46
+[25-Nov-2019 07:08:51 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/philosophy/lib/csf/fields/checkbox/checkbox.php on line 29
+[25-Nov-2019 07:08:51 UTC] PHP Stack trace:
+[25-Nov-2019 07:08:51 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[25-Nov-2019 07:08:51 UTC] PHP   2. include() /app/public/wp-admin/post.php:197
+[25-Nov-2019 07:08:51 UTC] PHP   3. do_meta_boxes() /app/public/wp-admin/edit-form-advanced.php:642
+[25-Nov-2019 07:08:51 UTC] PHP   4. CSFramework_Metabox->render_meta_box_content() /app/public/wp-admin/includes/template.php:1310
+[25-Nov-2019 07:08:51 UTC] PHP   5. cs_add_element() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:129
+[25-Nov-2019 07:08:51 UTC] PHP   6. CSFramework_Option_checkbox->output() /app/public/wp-content/themes/philosophy/lib/csf/functions/helpers.php:46

@@ -44,7 +44,42 @@ function philosophy_page_metabox($options){
                         'title' => __('Is Favourite', 'philosophy'),
                         'type' => 'switcher',
                         'default' => 1                        
+                    ),
+                    
+                    //Class 24.3
+                    array(
+                        'id' => 'is-favourite-extra',
+                        'title' => __('Extra Check', 'philosophy'),
+                        'type' => 'switcher',
+                        'default' => 0
+                    ),
+                    array(
+                        'id' => 'page-favourite-text',
+                        'title' => __('Page Favourite Text', 'philosophy'),
+                        'type' => 'text',
+                        'dependency' => array('is-favourite|is-favourite-extra','==|==','1|1' )
+                    ),
+                    array(
+                        'id' => 'support-language',
+                        'type' => 'checkbox',
+                        'title' => __('Languages', 'philosophy'),
+                        'options' => array(
+                            'bangla' => 'Bangla',
+                            'english' => 'English',
+                            'french' => 'French'
+                        ),
+                        'attributes' => array(
+                            'data-depend-id' => 'support-language'
+                        )                        
+                    ),
+                    array(
+                        'id' => 'extra-language-data',
+                        'type' => 'text',
+                        'title' => __('Extra Data','philosophy'),
+//                        'dependency' => array('support-language_bangla|support-language_english','==|==','1|1')
+                        'dependency' => array('support-language','any','bangla,english')
                     )
+                    //End Class 24.3
                 )
             ),
             array(
