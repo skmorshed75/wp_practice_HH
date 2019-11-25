@@ -31,15 +31,8 @@ function philosophy_page_metabox($options){
     };
     //echo $current_page_template;
     //die();
-    //wp_die();
-
-    
+    //wp_die();    
     //End of Class 24.4
-    
-    
-    
-    
-    
     $options[] = array(
         'id'        => 'page-metabox',
         'title'     => __( 'Page Meta Info', 'philosophy' ),
@@ -138,3 +131,44 @@ function philosophy_page_metabox($options){
     return $options;
 }
 add_filter('cs_metabox_options','philosophy_page_metabox');
+
+//Class 24.5
+function philosophy_upload_metabox($options){
+    $options[] = array(
+        'id'        => 'page-upload-metabox',
+        'title'     => __( 'Upload Files', 'philosophy' ),
+        'post_type' => 'page',
+        'context'   => 'normal',
+        'priority'  => 'default',
+        'sections'  => array(
+            array(
+                'name'   => 'page-section1',
+                'title'  => __( 'Page Settings', 'philosophy' ),
+                'icon'   => 'fa fa-image',
+                'fields' => array(
+                    array(
+                        'id'      => 'page-upload',
+                        'type'    => 'upload',
+                        'title'   => __( 'Upload File', 'philosophy' ),
+                        'settings' => array(
+                            'upload_type' => 'application/pdf',
+                            //'upload_type' => 'video/mp4',
+                            //'upload_type' => 'image/jpg',
+                            'button_title' => __('Upload', 'philosophy'),
+                            'frame_title' => __('Select a PDF File', 'philosophy'),
+                            'insert_title' => __('Use this Use this PDF', 'philosophy'),     
+                        ),
+                    ), 
+                    array(
+                        'id'      => 'page-image',
+                        'type'    => 'image',
+                        'title'   => __( 'Upload Image', 'philosophy' ),
+                        'add_title' => __("Add an Image","philosophy"),
+                    ),                                        
+                )
+            ),
+        )              
+    );
+    return $options;
+}
+add_filter('cs_metabox_options','philosophy_upload_metabox');
