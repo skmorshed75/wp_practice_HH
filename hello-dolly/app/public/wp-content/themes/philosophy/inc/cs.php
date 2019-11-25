@@ -15,6 +15,31 @@ add_action('init', 'philosophy_csf_metabox');
 
 
 function philosophy_page_metabox($options){
+    //Class 24.4
+    $page_id = 0;
+    //SEARCH CURRENT ID
+    if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
+        $page_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
+    }
+    
+    $current_page_template = get_post_meta($page_id,'_wp_page_template', true);
+    
+    //if('about.php' != $current_page_template)
+    //If not about or contact page then exit
+    if(!in_array($current_page_template,array('about.php','contact.php'))){
+        return $options;        
+    };
+    //echo $current_page_template;
+    //die();
+    //wp_die();
+
+    
+    //End of Class 24.4
+    
+    
+    
+    
+    
     $options[] = array(
         'id'        => 'page-metabox',
         'title'     => __( 'Page Meta Info', 'philosophy' ),

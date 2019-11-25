@@ -1568,3 +1568,34 @@ Stack trace:
 [25-Nov-2019 07:08:51 UTC] PHP   4. CSFramework_Metabox->render_meta_box_content() /app/public/wp-admin/includes/template.php:1310
 [25-Nov-2019 07:08:51 UTC] PHP   5. cs_add_element() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:129
 [25-Nov-2019 07:08:51 UTC] PHP   6. CSFramework_Option_checkbox->output() /app/public/wp-content/themes/philosophy/lib/csf/functions/helpers.php:46
+[25-Nov-2019 13:43:28 UTC] PHP Notice:  Undefined variable: page_ID in /app/public/wp-content/themes/philosophy/inc/cs.php on line 25
+[25-Nov-2019 13:43:28 UTC] PHP Stack trace:
+[25-Nov-2019 13:43:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[25-Nov-2019 13:43:28 UTC] PHP   2. require() /app/public/index.php:17
+[25-Nov-2019 13:43:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[25-Nov-2019 13:43:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[25-Nov-2019 13:43:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[25-Nov-2019 13:43:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[25-Nov-2019 13:43:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[25-Nov-2019 13:43:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Nov-2019 13:43:28 UTC] PHP   9. philosophy_csf_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[25-Nov-2019 13:43:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/philosophy/inc/cs.php:12
+[25-Nov-2019 13:43:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:45
+[25-Nov-2019 13:43:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:33
+[25-Nov-2019 13:43:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[25-Nov-2019 13:43:28 UTC] PHP  14. philosophy_page_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[25-Nov-2019 13:43:28 UTC] PHP Notice:  Undefined variable: page_ID in /app/public/wp-content/themes/philosophy/inc/cs.php on line 25
+[25-Nov-2019 13:43:28 UTC] PHP Stack trace:
+[25-Nov-2019 13:43:28 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[25-Nov-2019 13:43:28 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[25-Nov-2019 13:43:28 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[25-Nov-2019 13:43:28 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[25-Nov-2019 13:43:28 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[25-Nov-2019 13:43:28 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[25-Nov-2019 13:43:28 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[25-Nov-2019 13:43:28 UTC] PHP   8. philosophy_csf_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[25-Nov-2019 13:43:28 UTC] PHP   9. CSFramework_Metabox::instance() /app/public/wp-content/themes/philosophy/inc/cs.php:12
+[25-Nov-2019 13:43:28 UTC] PHP  10. CSFramework_Metabox->__construct() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:45
+[25-Nov-2019 13:43:28 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/philosophy/lib/csf/classes/metabox.class.php:33
+[25-Nov-2019 13:43:28 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[25-Nov-2019 13:43:28 UTC] PHP  13. philosophy_page_metabox() /app/public/wp-includes/class-wp-hook.php:286
