@@ -57,7 +57,7 @@ function meal_theme_assets(){
     wp_enqueue_script('stellar-js',get_theme_file_uri('/assets/js/jquery.stellar.min.js'),array('jquery'), 1.0, true);    
     wp_enqueue_script('easing-js',get_theme_file_uri('/assets/js/jquery.easing.1.3.js'),array('jquery'), 1.0, true);
     wp_enqueue_script('aos-js', get_theme_file_uri('/assets/js/aos.js'),array('jquery'),1.0, true);    
-    wp_enqueue_script('meal-maps','//maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false');
+    wp_enqueue_script('meal-maps','//maps.googleapis.com/maps/api/js?key=AIzaSyCjEmNUSFM03ofZueAyft6pMa9U7u7d1rU',null, 1.0, true);
     
     wp_enqueue_script('imagesloaded-js',get_theme_file_uri('/assets/js/imagesloaded.js'),array('jquery'), 1.0, true);
     wp_enqueue_script('isotope-pkgd-js',get_theme_file_uri('/assets/js/isotope.pkgd.min.js'),array('jquery'), 1.0, true);
