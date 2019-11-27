@@ -1869,3 +1869,36 @@ Stack trace:
 [25-Nov-2019 17:14:40 UTC] PHP   2. require() /app/public/index.php:17
 [25-Nov-2019 17:14:40 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
 [25-Nov-2019 17:14:40 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[27-Nov-2019 17:08:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function load_text_domain() in /app/public/wp-content/themes/meal/functions.php:12
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): meal_theme_setup('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(509): do_action('after_setup_the...')
+#4 /app/public/wp-config.php(81): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/themes.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/meal/functions.php on line 12
+[27-Nov-2019 17:12:55 UTC] PHP Notice:  wp_richedit_pre is <strong>deprecated</strong> since version 4.3.0! Use format_for_editor() instead. in /app/public/wp-includes/functions.php on line 4440
+[27-Nov-2019 17:12:55 UTC] PHP Stack trace:
+[27-Nov-2019 17:12:55 UTC] PHP   1. {main}() /app/public/wp-admin/themes.php:0
+[27-Nov-2019 17:12:55 UTC] PHP   2. require() /app/public/wp-admin/themes.php:604
+[27-Nov-2019 17:12:55 UTC] PHP   3. do_action() /app/public/wp-admin/admin-footer.php:73
+[27-Nov-2019 17:12:55 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[27-Nov-2019 17:12:55 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[27-Nov-2019 17:12:55 UTC] PHP   6. Attachments->admin_footer() /app/public/wp-includes/class-wp-hook.php:286
+[27-Nov-2019 17:12:55 UTC] PHP   7. Attachments->create_attachment() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1462
+[27-Nov-2019 17:12:55 UTC] PHP   8. Attachments->create_attachment_field() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1368
+[27-Nov-2019 17:12:55 UTC] PHP   9. Attachments_Field_WYSIWYG->format_value_for_input() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1266
+[27-Nov-2019 17:12:55 UTC] PHP  10. wp_richedit_pre() /app/public/wp-content/plugins/attachments/classes/fields/class.field.wysiwyg.php:138
+[27-Nov-2019 17:12:55 UTC] PHP  11. _deprecated_function() /app/public/wp-includes/deprecated.php:3555
+[27-Nov-2019 17:12:55 UTC] PHP  12. trigger_error() /app/public/wp-includes/functions.php:4440
+[27-Nov-2019 17:13:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attibutes() in /app/public/wp-content/themes/meal/index.php:2
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/meal/index.php on line 2

@@ -8,8 +8,8 @@ if(site_url() == "http://hellodolly.local"){
     define("VERSION", wp_get_theme()->get("Version"));
 }
 
-function meal_theme_setup(){
-    load_text_domain('meal', get_template_directory()."/languages");
+function meal_theme_setup(){    
+    load_theme_textdomain('meal', get_template_directory()."/languages");
     //Create a directory LANGUAGES in meal folder
     add_theme_support('post-thumbnails');
     add_theme_support('title-tags');
@@ -46,25 +46,24 @@ function meal_theme_assets(){
     wp_enqueue_style('meal-stylesheet',get_stylesheet_uri(),null, VERSION);
     
     //JS FILES
-    wp_enqueue_script('popper-js',get_theme_file_uri('/assets/js/popper.min.js'),null,1.0); 
-    wp_enqueue_script('bootstrap-js',get_theme_file_uri('/assets/js/bootstrap.min.js'),null,1.0);    
-    wp_enqueue_script('owl-carousel-js',get_theme_file_uri('/assets/js/owl.carousel.min.js'),null, 1.0);
-    wp_enqueue_script('waypoints-js',get_theme_file_uri('/assets/js/jquery.waypoints.min.js'),null, 1.0);
-    wp_enqueue_script('magnific-popup-js',get_theme_file_uri('/assets/js/jquery.magnific-popup.min.js'),null, 1.0);    
-    wp_enqueue_script('magnific-popup-options-js',get_theme_file_uri('/assets/js/magnific-popup-options.js'),null, 1.0);
-    wp_enqueue_script('bootstrap-datepicker-js',get_theme_file_uri('/assets/js/bootstrap-datepicker.js'),null, 1.0);
-    wp_enqueue_script('timepicker-js',get_theme_file_uri('/assets/js/jquery.timepicker.min.js'),null, 1.0);
-    wp_enqueue_script('stellar-js',get_theme_file_uri('/assets/js/jquery.stellar.min.js'),null, 1.0);    
-    wp_enqueue_script('easing-js',get_theme_file_uri('/assets/js/jquery.easing.1.3.js'),null, 1.0);
-    wp_enqueue_script('aos-js', get_theme_file_uri('/assets/js/aos.js'),null,1.0);    
+    wp_enqueue_script('popper-js',get_theme_file_uri('/assets/js/popper.min.js'),array('jquery'),1.0, true); 
+    wp_enqueue_script('bootstrap-js',get_theme_file_uri('/assets/js/bootstrap.min.js'),array('jquery'),1.0, true);    
+    wp_enqueue_script('owl-carousel-js',get_theme_file_uri('/assets/js/owl.carousel.min.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('waypoints-js',get_theme_file_uri('/assets/js/jquery.waypoints.min.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('magnific-popup-js',get_theme_file_uri('/assets/js/jquery.magnific-popup.min.js'),array('jquery'), 1.0, true);    
+    wp_enqueue_script('magnific-popup-options-js',get_theme_file_uri('/assets/js/magnific-popup-options.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('bootstrap-datepicker-js',get_theme_file_uri('/assets/js/bootstrap-datepicker.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('timepicker-js',get_theme_file_uri('/assets/js/jquery.timepicker.min.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('stellar-js',get_theme_file_uri('/assets/js/jquery.stellar.min.js'),array('jquery'), 1.0, true);    
+    wp_enqueue_script('easing-js',get_theme_file_uri('/assets/js/jquery.easing.1.3.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('aos-js', get_theme_file_uri('/assets/js/aos.js'),array('jquery'),1.0, true);    
     wp_enqueue_script('meal-maps','//maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false');
     
-    wp_enqueue_script('imagesloaded-js',get_theme_file_uri('/assets/js/imagesloaded.js'),null, 1.0);
-    wp_enqueue_script('isotope-pkgd-js',get_theme_file_uri('/assets/js/isotope.pkgd.min.js'),null, 1.0);
-    wp_enqueue_script('isotope-js',get_theme_file_uri('/assets/js/jquery.isotope.js'),null, 1.0);
-    wp_enqueue_script('portfolio-js',get_theme_file_uri('/assets/js/portfolio.js'),null, 1.0);
-    wp_enqueue_script('meal-main-js',get_theme_file_uri('/assets/js/main.js'),null, 1.0);
-    
+    wp_enqueue_script('imagesloaded-js',get_theme_file_uri('/assets/js/imagesloaded.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('isotope-pkgd-js',get_theme_file_uri('/assets/js/isotope.pkgd.min.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('isotope-js',get_theme_file_uri('/assets/js/jquery.isotope.js'),array('jquery'), 1.0, true);
+    wp_enqueue_script('portfolio-js',get_theme_file_uri('/assets/js/portfolio.js'),array('jquery','imagesloaded-js','magnific-popup-options-js','isotope-js','isotope-pkgd-js'), VERSION, true);
+    wp_enqueue_script('meal-main-js',get_theme_file_uri('/assets/js/main.js'),array('jquery'), VERSION, true);    
 }
 add_action('wp_enqueue_scripts','meal_theme_assets');
 

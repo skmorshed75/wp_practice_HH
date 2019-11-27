@@ -1,49 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-    <title>Meal &mdash; Free Template for Restaurants by Free-Template.co</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Free Template by Free-Template.co"/>
-    <meta name="keywords" content="free template, free bootstrap, free website template"/>
-    <meta name="author" content="Free-Template.co"/>
-
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:300,400,700,800|Open+Sans:300,400,700"
-          rel="stylesheet">
-
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link href="css/portfolio.css" rel="stylesheet">
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
-
-
-    <!--
-    //////////////////////////////////////////////////////
-
-    Free TEMPLATE 
-    DESIGNED & DEVELOPED by free-template.co
-      
-    Website:    https://free-template.co
-    Email:      freetemplate.co@gmail.com
-    Twitter:    https://twitter.com/Free_Templateco
-    Facebook:   https://www.facebook.com/Free.Template.co/
-
-    //////////////////////////////////////////////////////
-    -->
+    <?php wp_head(); ?>
 </head>
 <!--<body class="bg-light">-->
 
@@ -80,9 +38,8 @@
     </header> <!-- site-header -->
 
     <div class="main-wrap " id="section-home">
-
         <div class="cover_1 overlay bg-slant-white bg-light">
-            <div class="img_bg" style="background-image: url(images/slider-1.jpg);" data-stellar-background-ratio="0.5">
+            <div class="img_bg" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.jpg);" data-stellar-background-ratio="0.5">
                 <div class="container">
                     <div class="row align-items-center justify-content-center text-center">
                         <div class="col-md-10" data-aos="fade-up">
@@ -110,7 +67,7 @@
 
                     <div class="ftco-46">
                         <div class="ftco-46-row d-flex flex-column flex-lg-row">
-                            <div class="ftco-46-image" style="background-image: url(images/img_1.jpg);"></div>
+                            <div class="ftco-46-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/img_1.jpg);"></div>
                             <div class="ftco-46-text ftco-46-arrow-left">
                                 <h4 class="ftco-46-subheading">Vegies</h4>
                                 <h3 class="ftco-46-heading">Beef Empanadas</h3>
@@ -119,7 +76,7 @@
                                 <p><a href="#" class="btn-link">Learn More <span
                                         class="ion-android-arrow-forward"></span></a></p>
                             </div>
-                            <div class="ftco-46-image" style="background-image: url(images/img_2.jpg);"></div>
+                            <div class="ftco-46-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/img_2.jpg);"></div>
                         </div>
 
                         <div class="ftco-46-row d-flex flex-column flex-lg-row">
@@ -131,7 +88,7 @@
                                 <p><a href="#" class="btn-link">Learn More <span
                                         class="ion-android-arrow-forward"></span></a></p>
                             </div>
-                            <div class="ftco-46-image" style="background-image: url(images/img_3.jpg);"></div>
+                            <div class="ftco-46-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/img_3.jpg);"></div>
                             <div class="ftco-46-text ftco-46-arrow-up">
                                 <h4 class="ftco-46-subheading">Food</h4>
                                 <h3 class="ftco-46-heading">Chicken Chimichurri Croquettes</h3>
@@ -180,8 +137,8 @@
                         <div class="portfolio-grid portfolio-gallery grid-4 gutter">
                             
                             <div class="portfolio-item cat2 cat3 cat4">
-                                <a href="imgs/img1.jpg" class="portfolio-image popup-gallery" title="Bread">
-                                    <img src="imgs/img1.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" class="portfolio-image popup-gallery" title="Bread">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Branding</h4>
@@ -194,8 +151,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat2 cat3 cat4">
-                                <a href="imgs/img9.jpg" class="portfolio-image popup-gallery" title="Bread">
-                                    <img src="imgs/img9.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img9.jpg" class="portfolio-image popup-gallery" title="Bread">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img9.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Branding</h4>
@@ -208,8 +165,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat1 cat2 cat3">
-                                <a href="imgs/img2.jpg" class="portfolio-image popup-gallery" title="Design">
-                                    <img src="imgs/img2.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img2.jpg" class="portfolio-image popup-gallery" title="Design">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img2.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Design</h4>
@@ -222,8 +179,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat1 cat4">
-                                <a href="imgs/img10.jpg" class="portfolio-image popup-gallery" title="Photography">
-                                    <img src="imgs/img10.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img10.jpg" class="portfolio-image popup-gallery" title="Photography">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img10.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Photography</h4>
@@ -236,8 +193,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat3 cat5">
-                                <a href="imgs/img4.jpg" class="portfolio-image popup-gallery" title="Marketing">
-                                    <img src="imgs/img4.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img4.jpg" class="portfolio-image popup-gallery" title="Marketing">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img4.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Marketing</h4>
@@ -250,8 +207,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat4 cat5">
-                                <a href="imgs/img5.jpg" class="portfolio-image popup-gallery" title="Web Desgin">
-                                    <img src="imgs/img5.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img5.jpg" class="portfolio-image popup-gallery" title="Web Desgin">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img5.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Web Design</h4>
@@ -264,8 +221,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat2 cat3">
-                                <a href="imgs/img7.jpg" class="portfolio-image popup-gallery" title="Media">
-                                    <img src="imgs/img7.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img7.jpg" class="portfolio-image popup-gallery" title="Media">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img7.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Media</h4>
@@ -278,8 +235,8 @@
                                 </a>
                             </div>
                             <div class="portfolio-item cat3 cat4 cat5">
-                                <a href="imgs/img6.jpg" class="portfolio-image popup-gallery" title="Portfolio">
-                                    <img src="imgs/img6.jpg" alt=""/>
+                                <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" class="portfolio-image popup-gallery" title="Portfolio">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt=""/>
                                     <div class="portfolio-hover-title">
                                         <div class="portfolio-content">
                                             <h4>Portfolio</h4>
@@ -309,7 +266,7 @@
                         <div class="ftco-38">
                             <div class="ftco-38-img">
                                 <div class="ftco-38-header">
-                                    <img src="images/chef_1.jpg"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chef_1.jpg"
                                          alt="Free Website Template for Restaurants by Free-Template.co">
                                     <h3 class="ftco-38-heading">Daniel Graham</h3>
                                     <p class="ftco-38-subheading">Master Chef</p>
@@ -333,7 +290,7 @@
                         <div class="ftco-38">
                             <div class="ftco-38-img">
                                 <div class="ftco-38-header">
-                                    <img src="images/chef_2.jpg"
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chef_2.jpg"
                                          alt="Free Website Template for Restaurants by Free-Template.co">
                                     <h3 class="ftco-38-heading">Nick Browning</h3>
                                     <p class="ftco-38-subheading">Master Chef</p>
@@ -390,7 +347,7 @@
                                 <div class="d-block d-md-flex menu-food-item">
 
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_1.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_1.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Warm Spinach Dip &amp; Chips</a></h3>
                                         <p>Spinach and artichokes in a creamy cheese dip with warm tortilla chips &amp;
@@ -403,7 +360,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_2.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_2.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Key Wast Machos</a></h3>
                                         <p>Crisp tortilla and plantain chips covered with lightly spiced ground beef,
@@ -416,7 +373,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_3.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_3.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Crispy Onions Rings</a></h3>
                                         <p>A heaping mountain of rings, handmade with Panko breading and shredded
@@ -429,7 +386,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_1.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_1.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Lobster &amp; Shrimp Quesadilla</a></h3>
                                         <p>Lobster and tender shrimp, with onions, sweet peppers, spinach and our three
@@ -447,7 +404,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_2.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_2.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Jumbo Lump Crab Stack</a></h3>
                                         <p>Spinach and artichokes in a creamy cheese dip with warm tortilla chips &amp;
@@ -460,7 +417,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_1.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_1.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Jamaican Chicken Wings</a></h3>
                                         <p>Crisp tortilla and plantain chips covered with lightly spiced ground beef,
@@ -473,7 +430,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_3.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_3.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Bahamian Seafood Chowder</a></h3>
                                         <p>A heaping mountain of rings, handmade with Panko breading and shredded
@@ -486,7 +443,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_2.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_2.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Grilled Chicken &amp; Tropical Fruit on Mixed Greens</a></h3>
                                         <p>Lobster and tender shrimp, with onions, sweet peppers, spinach and our three
@@ -503,7 +460,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_3.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_3.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Grilled Top Sirlion Steak</a></h3>
                                         <p>Spinach and artichokes in a creamy cheese dip with warm tortilla chips &amp;
@@ -516,7 +473,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_1.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_1.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Steak Oscar</a></h3>
                                         <p>Crisp tortilla and plantain chips covered with lightly spiced ground beef,
@@ -529,7 +486,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_2.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_2.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Skirt Steak Churrasco</a></h3>
                                         <p>A heaping mountain of rings, handmade with Panko breading and shredded
@@ -542,7 +499,7 @@
 
                                 <div class="d-block d-md-flex menu-food-item">
                                     <div class="text order-1 mb-3">
-                                        <img src="images/img_3.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img_3.jpg"
                                              alt="Free Website Template for Restaurants by Free-Template.co">
                                         <h3><a href="#">Grilled Beef Steak</a></h3>
                                         <p>Lobster and tender shrimp, with onions, sweet peppers, spinach and our three
@@ -742,7 +699,7 @@
                                         necessary regelialia. It is a paradisematic country, in which roasted parts of
                                         sentences fly into your mouth.&rdquo;</p>
                                     <div class="author">
-                                        <img src="images/person_1.jpg" alt="Image placeholder" class="mb-3">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/person_1.jpg" alt="Image placeholder" class="mb-3">
                                         <h4>Maxim Smith</h4>
                                         <p>CEO, Founder</p>
                                     </div>
@@ -754,7 +711,7 @@
                                         and Consonantia, there live the blind texts. Separated they live in
                                         Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
                                     <div class="author">
-                                        <img src="images/person_2.jpg" alt="Image placeholder" class="mb-3">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/person_2.jpg" alt="Image placeholder" class="mb-3">
                                         <h4>Geert Green</h4>
                                         <p>CEO, Founder</p>
                                     </div>
@@ -766,7 +723,7 @@
                                         an almost unorthographic life One day however a small line of blind text by the
                                         name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
                                     <div class="author">
-                                        <img src="images/person_3.jpg" alt="Image placeholder" class="mb-3">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/person_3.jpg" alt="Image placeholder" class="mb-3">
                                         <h4>Dennis Roman</h4>
                                         <p>CEO, Founder</p>
                                     </div>
@@ -779,7 +736,7 @@
                                         didn’t listen. She packed her seven versalia, put her initial into the belt and
                                         made herself on the way.&rdquo;</p>
                                     <div class="author">
-                                        <img src="images/person_2.jpg" alt="Image placeholder" class="mb-3">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/person_2.jpg" alt="Image placeholder" class="mb-3">
                                         <h4>Geert Green</h4>
                                         <p>CEO, Founder</p>
                                     </div>
@@ -911,28 +868,6 @@
     </svg>
 </div>
 
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/jquery.timepicker.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-
-<script src="js/jquery.easing.1.3.js"></script>
-
-<script src="js/aos.js"></script>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="js/imagesloaded.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/portfolio.js"></script>
-<script src="js/main.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>
