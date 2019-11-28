@@ -1902,3 +1902,45 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/meal/index.php on line 2
+[28-Nov-2019 03:24:56 UTC] PHP Notice:  wp_richedit_pre is <strong>deprecated</strong> since version 4.3.0! Use format_for_editor() instead. in /app/public/wp-includes/functions.php on line 4440
+[28-Nov-2019 03:24:56 UTC] PHP Stack trace:
+[28-Nov-2019 03:24:56 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 03:24:56 UTC] PHP   2. include() /app/public/wp-admin/edit.php:431
+[28-Nov-2019 03:24:56 UTC] PHP   3. do_action() /app/public/wp-admin/admin-footer.php:73
+[28-Nov-2019 03:24:56 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 03:24:56 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 03:24:56 UTC] PHP   6. Attachments->admin_footer() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 03:24:56 UTC] PHP   7. Attachments->create_attachment() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1462
+[28-Nov-2019 03:24:56 UTC] PHP   8. Attachments->create_attachment_field() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1368
+[28-Nov-2019 03:24:56 UTC] PHP   9. Attachments_Field_WYSIWYG->format_value_for_input() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1266
+[28-Nov-2019 03:24:56 UTC] PHP  10. wp_richedit_pre() /app/public/wp-content/plugins/attachments/classes/fields/class.field.wysiwyg.php:138
+[28-Nov-2019 03:24:56 UTC] PHP  11. _deprecated_function() /app/public/wp-includes/deprecated.php:3555
+[28-Nov-2019 03:24:56 UTC] PHP  12. trigger_error() /app/public/wp-includes/functions.php:4440
+[28-Nov-2019 03:24:59 UTC] PHP Notice:  wp_richedit_pre is <strong>deprecated</strong> since version 4.3.0! Use format_for_editor() instead. in /app/public/wp-includes/functions.php on line 4440
+[28-Nov-2019 03:24:59 UTC] PHP Stack trace:
+[28-Nov-2019 03:24:59 UTC] PHP   1. {main}() /app/public/wp-admin/post-new.php:0
+[28-Nov-2019 03:24:59 UTC] PHP   2. include() /app/public/wp-admin/post-new.php:83
+[28-Nov-2019 03:24:59 UTC] PHP   3. do_action() /app/public/wp-admin/admin-footer.php:73
+[28-Nov-2019 03:24:59 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 03:24:59 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 03:24:59 UTC] PHP   6. Attachments->admin_footer() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 03:24:59 UTC] PHP   7. Attachments->create_attachment() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1462
+[28-Nov-2019 03:24:59 UTC] PHP   8. Attachments->create_attachment_field() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1368
+[28-Nov-2019 03:24:59 UTC] PHP   9. Attachments_Field_WYSIWYG->format_value_for_input() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1266
+[28-Nov-2019 03:24:59 UTC] PHP  10. wp_richedit_pre() /app/public/wp-content/plugins/attachments/classes/fields/class.field.wysiwyg.php:138
+[28-Nov-2019 03:24:59 UTC] PHP  11. _deprecated_function() /app/public/wp-includes/deprecated.php:3555
+[28-Nov-2019 03:24:59 UTC] PHP  12. trigger_error() /app/public/wp-includes/functions.php:4440
+[28-Nov-2019 03:25:07 UTC] PHP Notice:  wp_richedit_pre is <strong>deprecated</strong> since version 4.3.0! Use format_for_editor() instead. in /app/public/wp-includes/functions.php on line 4440
+[28-Nov-2019 03:25:07 UTC] PHP Stack trace:
+[28-Nov-2019 03:25:07 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 03:25:07 UTC] PHP   2. include() /app/public/wp-admin/edit.php:431
+[28-Nov-2019 03:25:07 UTC] PHP   3. do_action() /app/public/wp-admin/admin-footer.php:73
+[28-Nov-2019 03:25:07 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 03:25:07 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 03:25:07 UTC] PHP   6. Attachments->admin_footer() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 03:25:07 UTC] PHP   7. Attachments->create_attachment() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1462
+[28-Nov-2019 03:25:07 UTC] PHP   8. Attachments->create_attachment_field() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1368
+[28-Nov-2019 03:25:07 UTC] PHP   9. Attachments_Field_WYSIWYG->format_value_for_input() /app/public/wp-content/plugins/attachments/classes/class.attachments.php:1266
+[28-Nov-2019 03:25:07 UTC] PHP  10. wp_richedit_pre() /app/public/wp-content/plugins/attachments/classes/fields/class.field.wysiwyg.php:138
+[28-Nov-2019 03:25:07 UTC] PHP  11. _deprecated_function() /app/public/wp-includes/deprecated.php:3555
+[28-Nov-2019 03:25:07 UTC] PHP  12. trigger_error() /app/public/wp-includes/functions.php:4440
