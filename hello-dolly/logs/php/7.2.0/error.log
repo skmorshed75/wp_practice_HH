@@ -2073,3 +2073,1377 @@ Stack trace:
 [28-Nov-2019 15:31:56 UTC] PHP Parse error:  syntax error, unexpected '25.6' (T_DNUMBER), expecting identifier (T_STRING) in /app/public/wp-content/plugins/meal-companion/meal-companion.php on line 3
 [28-Nov-2019 15:31:57 UTC] PHP Parse error:  syntax error, unexpected '25.6' (T_DNUMBER), expecting identifier (T_STRING) in /app/public/wp-content/plugins/meal-companion/meal-companion.php on line 3
 [28-Nov-2019 15:31:57 UTC] PHP Parse error:  syntax error, unexpected '25.6' (T_DNUMBER), expecting identifier (T_STRING) in /app/public/wp-content/plugins/meal-companion/meal-companion.php on line 3
+[28-Nov-2019 15:59:02 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 15:59:02 UTC] PHP Stack trace:
+[28-Nov-2019 15:59:02 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 15:59:02 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 15:59:02 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 15:59:02 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 15:59:02 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 15:59:02 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 15:59:02 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 15:59:02 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 15:59:02 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 15:59:02 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 15:59:02 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 15:59:02 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 15:59:02 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 15:59:02 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 15:59:02 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 15:59:17 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 15:59:17 UTC] PHP Stack trace:
+[28-Nov-2019 15:59:17 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 15:59:17 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 15:59:17 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 15:59:17 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 15:59:17 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 15:59:17 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 15:59:17 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 15:59:17 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 15:59:17 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 15:59:17 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 15:59:17 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 15:59:17 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 15:59:17 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 15:59:17 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 15:59:17 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 15:59:32 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 15:59:32 UTC] PHP Stack trace:
+[28-Nov-2019 15:59:32 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 15:59:32 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 15:59:32 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 15:59:32 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 15:59:32 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 15:59:32 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 15:59:32 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 15:59:32 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 15:59:32 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 15:59:32 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 15:59:32 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 15:59:32 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 15:59:32 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 15:59:32 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 15:59:32 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:01:32 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:01:32 UTC] PHP Stack trace:
+[28-Nov-2019 16:01:32 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:01:32 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:01:32 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:01:32 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:01:32 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:01:32 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:01:32 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:01:32 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:01:32 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:01:32 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:01:32 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:01:32 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:01:32 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:01:32 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:01:32 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:03:32 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:03:32 UTC] PHP Stack trace:
+[28-Nov-2019 16:03:32 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:03:32 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:03:32 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:03:32 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:03:32 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:03:32 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:03:32 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:03:32 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:03:32 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:03:32 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:03:32 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:03:32 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:03:32 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:03:32 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:03:32 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:05:32 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:05:32 UTC] PHP Stack trace:
+[28-Nov-2019 16:05:32 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:05:32 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:05:32 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:05:32 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:05:32 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:05:32 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:05:32 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:05:32 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:05:32 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:05:32 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:05:32 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:05:32 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:05:32 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:05:32 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:05:32 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:07:32 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:07:32 UTC] PHP Stack trace:
+[28-Nov-2019 16:07:32 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:07:32 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:07:32 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:07:32 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:07:32 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:07:32 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:07:32 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:07:32 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:07:32 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:07:32 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:07:32 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:07:32 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:07:32 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:07:32 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:07:32 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:09:33 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:09:33 UTC] PHP Stack trace:
+[28-Nov-2019 16:09:33 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:09:33 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:09:33 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:09:33 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:09:33 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:09:33 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:09:33 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:09:33 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:09:33 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:09:33 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:09:33 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:09:33 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:09:33 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:09:33 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:09:33 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:25:56 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:25:56 UTC] PHP Stack trace:
+[28-Nov-2019 16:25:56 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:25:56 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:25:56 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:25:56 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:25:56 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:25:56 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:25:56 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:25:56 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:25:56 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:25:56 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:25:56 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:25:56 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:25:56 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:25:56 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:25:56 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:26:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:26:11 UTC] PHP Stack trace:
+[28-Nov-2019 16:26:11 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:26:11 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:26:11 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:26:11 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:26:11 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:26:11 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:26:11 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:26:11 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:26:11 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:26:11 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:26:11 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:26:11 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:26:11 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:26:11 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:26:11 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:28:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:28:11 UTC] PHP Stack trace:
+[28-Nov-2019 16:28:11 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:28:11 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:28:11 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:28:11 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:28:11 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:28:11 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:28:11 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:28:11 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:28:11 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:28:11 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:28:11 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:28:11 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:28:11 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:28:11 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:28:11 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:30:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:30:11 UTC] PHP Stack trace:
+[28-Nov-2019 16:30:11 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:30:11 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:30:11 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:30:11 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:30:11 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:30:11 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:30:11 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:30:11 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:30:11 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:30:11 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:30:11 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:30:11 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:30:11 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:30:11 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:30:11 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:32:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:32:11 UTC] PHP Stack trace:
+[28-Nov-2019 16:32:11 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:32:11 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:32:11 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:32:11 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:32:11 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:32:11 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:32:11 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:32:11 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:32:11 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:32:11 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:32:11 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:32:11 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:32:11 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:32:11 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:32:11 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:34:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:34:11 UTC] PHP Stack trace:
+[28-Nov-2019 16:34:11 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:34:11 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:34:11 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:34:11 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:34:11 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:34:11 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:34:11 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:34:11 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:34:11 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:34:11 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:34:11 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:34:11 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:34:11 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:34:11 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:34:11 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:36:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 16:36:11 UTC] PHP Stack trace:
+[28-Nov-2019 16:36:11 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 16:36:11 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 16:36:11 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 16:36:11 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 16:36:11 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 16:36:11 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 16:36:11 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 16:36:11 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 16:36:11 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 16:36:11 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:36:11 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 16:36:11 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 16:36:11 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 16:36:11 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 16:36:11 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:35:48 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:35:48 UTC] PHP Stack trace:
+[28-Nov-2019 17:35:48 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 17:35:48 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 17:35:48 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:35:48 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:35:48 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:35:48 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:35:48 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:35:48 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:35:48 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:35:48 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:35:48 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:35:48 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:35:48 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:35:48 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:35:48 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:35:48 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:35:48 UTC] PHP Stack trace:
+[28-Nov-2019 17:35:48 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:35:48 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:35:48 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:35:48 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:35:48 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:35:48 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:35:48 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:35:48 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:35:48 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:35:48 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:35:48 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:35:48 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:35:48 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:35:48 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:35:48 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:35:51 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:35:51 UTC] PHP Stack trace:
+[28-Nov-2019 17:35:51 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 17:35:51 UTC] PHP   2. require_once() /app/public/wp-admin/edit.php:10
+[28-Nov-2019 17:35:51 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:35:51 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:35:51 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:35:51 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:35:51 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:35:51 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:35:51 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:35:51 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:35:51 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:35:51 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:35:51 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:35:51 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:35:51 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:35:51 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:00 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:38:00 UTC] PHP Stack trace:
+[28-Nov-2019 17:38:00 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 17:38:00 UTC] PHP   2. require_once() /app/public/wp-admin/edit.php:10
+[28-Nov-2019 17:38:00 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:38:00 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:38:00 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:38:00 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:38:00 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:38:00 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:38:00 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:38:00 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:38:00 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:00 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:00 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:38:00 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:38:00 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:00 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:00 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:38:00 UTC] PHP Stack trace:
+[28-Nov-2019 17:38:00 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:38:00 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:38:00 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:38:00 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:38:00 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:38:00 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:38:00 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:38:00 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:38:00 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:38:00 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:00 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:00 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:38:00 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:38:00 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:00 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:02 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:38:02 UTC] PHP Stack trace:
+[28-Nov-2019 17:38:02 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 17:38:02 UTC] PHP   2. require_once() /app/public/wp-admin/edit.php:10
+[28-Nov-2019 17:38:02 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:38:02 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:38:02 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:38:02 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:38:02 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:38:02 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:38:02 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:38:02 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:38:02 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:02 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:02 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:38:02 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:38:02 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:02 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:27 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:38:27 UTC] PHP Stack trace:
+[28-Nov-2019 17:38:27 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 17:38:27 UTC] PHP   2. require_once() /app/public/wp-admin/edit.php:10
+[28-Nov-2019 17:38:27 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:38:27 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:38:27 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:38:27 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:38:27 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:38:27 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:38:27 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:38:27 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:38:27 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:27 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:27 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:38:27 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:38:27 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:27 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:29 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:38:29 UTC] PHP Stack trace:
+[28-Nov-2019 17:38:29 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 17:38:29 UTC] PHP   2. require_once() /app/public/wp-admin/edit.php:10
+[28-Nov-2019 17:38:29 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:38:29 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:38:29 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:38:29 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:38:29 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:38:29 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:38:29 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:38:29 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:38:29 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:29 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:38:29 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:38:29 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:38:29 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:38:29 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:04 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:39:04 UTC] PHP Stack trace:
+[28-Nov-2019 17:39:04 UTC] PHP   1. {main}() /app/public/wp-admin/edit.php:0
+[28-Nov-2019 17:39:04 UTC] PHP   2. require_once() /app/public/wp-admin/edit.php:10
+[28-Nov-2019 17:39:04 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:39:04 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:39:04 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:39:04 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:39:04 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:39:04 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:39:04 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:39:04 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:39:04 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:04 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:04 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:39:04 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:39:04 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:39:04 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:04 UTC] PHP Stack trace:
+[28-Nov-2019 17:39:04 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:04 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:39:04 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:39:04 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:39:04 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:39:04 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:39:04 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:39:04 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:39:04 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:39:04 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:39:04 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:04 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:04 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:39:04 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:39:04 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:04 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:08 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:39:08 UTC] PHP Stack trace:
+[28-Nov-2019 17:39:08 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 17:39:08 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:39:08 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 17:39:08 UTC] PHP Stack trace:
+[28-Nov-2019 17:39:08 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:39:08 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[28-Nov-2019 17:39:08 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:39:08 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[28-Nov-2019 17:39:08 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:39:08 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:39:08 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:39:08 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:39:08 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:39:08 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:39:08 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:39:08 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:39:08 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:39:08 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:08 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:39:08 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:39:08 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:08 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:39:08 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:39:08 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:39:08 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:08 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:08 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:08 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:39:08 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:08 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:39:08 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:08 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:14 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:39:14 UTC] PHP Stack trace:
+[28-Nov-2019 17:39:14 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[28-Nov-2019 17:39:14 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[28-Nov-2019 17:39:14 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:39:14 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:39:14 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:39:14 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:39:14 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:39:14 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:39:14 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:39:14 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:39:14 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:14 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:39:14 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:39:14 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:39:14 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:39:14 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:09 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:09 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:09 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[28-Nov-2019 17:40:09 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[28-Nov-2019 17:40:09 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:40:09 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:09 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:09 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:09 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:09 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:09 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:09 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:09 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:09 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:09 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:09 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:09 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:09 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:09 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:09 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:09 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:40:09 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:40:09 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:09 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:09 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:09 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:09 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:09 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:09 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:09 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:09 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:09 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:09 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:09 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:09 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:11 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:11 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:11 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[28-Nov-2019 17:40:11 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[28-Nov-2019 17:40:11 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:40:11 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:11 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:11 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:11 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:11 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:11 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:11 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:11 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:11 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:11 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:11 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:11 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:11 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:12 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:12 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:12 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[28-Nov-2019 17:40:12 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[28-Nov-2019 17:40:12 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:40:12 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:12 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:12 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:12 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:12 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:12 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:12 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:12 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:12 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:12 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:12 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:12 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:12 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:13 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:13 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:13 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[28-Nov-2019 17:40:13 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[28-Nov-2019 17:40:13 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:40:13 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:13 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:13 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:13 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:13 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:13 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:13 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:13 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:13 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:13 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:13 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:13 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:13 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:18 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:18 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:18 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[28-Nov-2019 17:40:18 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[28-Nov-2019 17:40:18 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:40:18 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:18 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:18 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:18 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:18 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:18 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:18 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:18 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:18 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:18 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:18 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:18 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:18 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:24 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:24 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:24 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[28-Nov-2019 17:40:24 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[28-Nov-2019 17:40:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[28-Nov-2019 17:40:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:24 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:24 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:24 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:24 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:24 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:24 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:24 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:24 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:50 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:40:50 UTC] PHP Stack trace:
+[28-Nov-2019 17:40:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:40:50 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:40:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:40:50 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:40:50 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:40:50 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:40:50 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:40:50 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:40:50 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:40:50 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:40:50 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:50 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:40:50 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:40:50 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:40:50 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:40:50 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:17 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:41:17 UTC] PHP Stack trace:
+[28-Nov-2019 17:41:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:41:17 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:41:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:41:17 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:41:17 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:41:17 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:41:17 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:41:17 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:41:17 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:41:17 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:41:17 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:41:17 UTC] PHP Stack trace:
+[28-Nov-2019 17:41:17 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:41:17 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:17 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:41:17 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:17 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:41:17 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:41:17 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:41:17 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:41:17 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:41:17 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:17 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:17 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:41:17 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:41:17 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:41:17 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:41:17 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:17 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:17 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:41:17 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:41:17 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:17 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:24 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:41:24 UTC] PHP Stack trace:
+[28-Nov-2019 17:41:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:41:24 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:41:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:41:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:41:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:41:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:41:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:41:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:41:24 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:41:24 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:41:24 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:24 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:24 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:41:24 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:41:24 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:24 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:29 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:41:29 UTC] PHP Stack trace:
+[28-Nov-2019 17:41:29 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:41:29 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:41:29 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:41:29 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:41:29 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:41:29 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:41:29 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:41:29 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:41:29 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:41:29 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:41:29 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:29 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:41:29 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:41:29 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:41:29 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:41:29 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:42:09 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:42:09 UTC] PHP Stack trace:
+[28-Nov-2019 17:42:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:42:09 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:42:09 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:42:09 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:42:09 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:42:09 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:42:09 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:42:09 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:42:09 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:42:09 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:42:09 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:42:09 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:42:09 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:42:09 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:42:09 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:42:09 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:42:56 UTC] PHP Warning:  Use of undefined constant xfalse - assumed 'xfalse' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/meal/functions.php on line 8
+[28-Nov-2019 17:42:56 UTC] PHP Stack trace:
+[28-Nov-2019 17:42:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:42:56 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:42:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:42:56 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:42:56 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:42:56 UTC] PHP   6. include() /app/public/wp-settings.php:499
+[28-Nov-2019 17:42:56 UTC] PHP Warning:  Use of undefined constant xfalse - assumed 'xfalse' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/meal/functions.php on line 8
+[28-Nov-2019 17:42:56 UTC] PHP Stack trace:
+[28-Nov-2019 17:42:56 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:42:56 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:42:56 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:42:56 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:42:56 UTC] PHP   5. include() /app/public/wp-settings.php:499
+[28-Nov-2019 17:42:56 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:42:56 UTC] PHP Stack trace:
+[28-Nov-2019 17:42:56 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:42:56 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:42:56 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:42:56 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:42:56 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:42:56 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:42:56 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:42:56 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:42:56 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:42:56 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:42:56 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:42:56 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:42:56 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:42:56 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:42:56 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:42:56 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:42:56 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:42:56 UTC] PHP Stack trace:
+[28-Nov-2019 17:42:56 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:42:56 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:42:56 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:42:56 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:42:56 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:42:56 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:42:56 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:42:56 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:42:56 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:42:56 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:42:56 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:42:56 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:42:56 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:42:56 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:42:56 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:43:30 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:43:30 UTC] PHP Stack trace:
+[28-Nov-2019 17:43:30 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:43:30 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:43:30 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:43:30 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:43:30 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:43:30 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:43:30 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:43:30 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:43:30 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:43:30 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:43:30 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:43:30 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:43:30 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:43:30 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:43:30 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:43:30 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:43:40 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Metabox' not found in /app/public/wp-content/themes/meal/functions.php:84
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): meal_codestar_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(525): do_action('init')
+#4 /app/public/wp-config.php(81): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/meal/functions.php on line 84
+[28-Nov-2019 17:54:45 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:54:45 UTC] PHP Stack trace:
+[28-Nov-2019 17:54:45 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:54:45 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:54:45 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:54:45 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:54:45 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:54:45 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:54:45 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:54:45 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:54:45 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:54:45 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:54:45 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:54:45 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:54:45 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:54:45 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:54:45 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:54:45 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:54:45 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:54:45 UTC] PHP Stack trace:
+[28-Nov-2019 17:54:45 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:54:45 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:54:45 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:54:45 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:54:45 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:54:45 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:54:45 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:54:45 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:54:45 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:54:45 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:54:45 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:54:45 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:54:45 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:54:45 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:54:45 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:56:49 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:56:49 UTC] PHP Stack trace:
+[28-Nov-2019 17:56:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[28-Nov-2019 17:56:49 UTC] PHP   2. require() /app/public/index.php:17
+[28-Nov-2019 17:56:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[28-Nov-2019 17:56:49 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:56:49 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:56:49 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:56:49 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:56:49 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:56:49 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:56:49 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:56:49 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:56:49 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:56:49 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:56:49 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:56:49 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[28-Nov-2019 17:56:49 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:56:49 UTC] PHP Stack trace:
+[28-Nov-2019 17:56:49 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:56:49 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[28-Nov-2019 17:56:49 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[28-Nov-2019 17:56:49 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[28-Nov-2019 17:56:49 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[28-Nov-2019 17:56:49 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[28-Nov-2019 17:56:49 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[28-Nov-2019 17:56:49 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[28-Nov-2019 17:56:49 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[28-Nov-2019 17:56:49 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[28-Nov-2019 17:56:49 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:56:49 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[28-Nov-2019 17:56:49 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[28-Nov-2019 17:56:49 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[28-Nov-2019 17:56:49 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[28-Nov-2019 17:56:49 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:30:39 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:30:39 UTC] PHP Stack trace:
+[29-Nov-2019 01:30:39 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:30:39 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:30:39 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:30:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:30:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:30:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:30:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:30:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:30:39 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:30:39 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:30:39 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:30:39 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:30:39 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:30:39 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:30:39 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:30:39 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:30:39 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:30:39 UTC] PHP Stack trace:
+[29-Nov-2019 01:30:39 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[29-Nov-2019 01:30:39 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[29-Nov-2019 01:30:39 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:30:39 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:30:39 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:30:39 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:30:39 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:30:39 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:30:39 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:30:39 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:30:39 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:30:39 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:30:39 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:30:39 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:30:39 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:34:13 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Metabox' not found in /app/public/wp-content/themes/meal/functions.php:84
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): meal_codestar_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(525): do_action('init')
+#4 /app/public/wp-config.php(81): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/meal/functions.php on line 84
+[29-Nov-2019 01:34:13 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Metabox' not found in /app/public/wp-content/themes/meal/functions.php:84
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): meal_codestar_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(525): do_action('init')
+#4 /app/public/wp-config.php(81): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-cron.php(39): require_once('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/meal/functions.php on line 84
+[29-Nov-2019 01:34:16 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Metabox' not found in /app/public/wp-content/themes/meal/functions.php:84
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): meal_codestar_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(525): do_action('init')
+#4 /app/public/wp-config.php(81): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/meal/functions.php on line 84
+[29-Nov-2019 01:38:47 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:38:47 UTC] PHP Stack trace:
+[29-Nov-2019 01:38:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:38:47 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:38:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:38:47 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:38:47 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:38:47 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:38:47 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:38:47 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:38:47 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:38:47 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:38:47 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:38:47 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:38:47 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:38:47 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:38:47 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:38:47 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:38:47 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:38:47 UTC] PHP Stack trace:
+[29-Nov-2019 01:38:47 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[29-Nov-2019 01:38:47 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[29-Nov-2019 01:38:47 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:38:47 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:38:47 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:38:47 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:38:47 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:38:47 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:38:47 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:38:47 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:38:47 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:38:47 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:38:47 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:38:47 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:38:47 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:39:44 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:39:44 UTC] PHP Stack trace:
+[29-Nov-2019 01:39:44 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:39:44 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:39:44 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:39:44 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:39:44 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:39:44 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:39:44 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:39:44 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:39:44 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:39:44 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:39:44 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:39:44 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:39:44 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:39:44 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:39:44 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:39:44 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:40:45 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:40:45 UTC] PHP Stack trace:
+[29-Nov-2019 01:40:45 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:40:45 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:40:45 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:40:45 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:40:45 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:40:45 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:40:45 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:40:45 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:40:45 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:40:45 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:40:45 UTC] PHP Stack trace:
+[29-Nov-2019 01:40:45 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[29-Nov-2019 01:40:45 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:40:45 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:40:45 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[29-Nov-2019 01:40:45 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:40:45 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:40:45 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:40:45 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:40:45 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:40:45 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:40:45 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:40:45 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:40:45 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:40:45 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:40:45 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:40:45 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:40:45 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:40:45 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:40:45 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:40:45 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:40:45 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:40:45 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:20 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:41:20 UTC] PHP Stack trace:
+[29-Nov-2019 01:41:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:41:20 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:41:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:41:20 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:41:20 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:41:20 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:41:20 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:41:20 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:41:20 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:41:20 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:41:20 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:20 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:20 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:41:20 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:41:20 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:20 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:22 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:41:22 UTC] PHP Stack trace:
+[29-Nov-2019 01:41:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:41:22 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:41:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:41:22 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:41:22 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:41:22 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:41:22 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:41:22 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:41:22 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:41:22 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:41:22 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:22 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:22 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:41:22 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:41:22 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:22 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:24 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:41:24 UTC] PHP Stack trace:
+[29-Nov-2019 01:41:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:41:24 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:41:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:41:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:41:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:41:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:41:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:41:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:41:24 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:41:24 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:41:24 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:24 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:24 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:41:24 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:41:24 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:24 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:49 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:41:49 UTC] PHP Stack trace:
+[29-Nov-2019 01:41:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:41:49 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:41:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:41:49 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:41:49 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:41:49 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:41:49 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:41:49 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:41:49 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:41:49 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:41:49 UTC] PHP Stack trace:
+[29-Nov-2019 01:41:49 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[29-Nov-2019 01:41:49 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:41:49 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[29-Nov-2019 01:41:49 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:49 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:41:49 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:49 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:41:49 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:41:49 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:41:49 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:41:49 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:41:49 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:41:49 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:49 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:41:49 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:49 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:41:49 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:49 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:41:49 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:41:49 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:41:49 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:41:49 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:42:04 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:42:04 UTC] PHP Stack trace:
+[29-Nov-2019 01:42:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:42:04 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:42:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:42:04 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:42:04 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:42:04 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:42:04 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:42:04 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:42:04 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:42:04 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:42:04 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:42:04 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:42:04 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:42:04 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:42:04 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:42:04 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:42:20 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:42:20 UTC] PHP Stack trace:
+[29-Nov-2019 01:42:20 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:42:20 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:42:20 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:42:20 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:42:20 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:42:20 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:42:20 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:42:20 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:42:20 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:42:20 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:42:20 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:42:20 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:42:20 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:42:20 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:42:20 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:42:20 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:44:44 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:44:44 UTC] PHP Stack trace:
+[29-Nov-2019 01:44:44 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[29-Nov-2019 01:44:44 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[29-Nov-2019 01:44:44 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:44:44 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:44:44 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:44:44 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:44:44 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:44:44 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:44:44 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:44:44 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:44:44 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:44:44 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:44:44 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:44:44 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:44:44 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:44:44 UTC] PHP Stack trace:
+[29-Nov-2019 01:44:44 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:44:44 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[29-Nov-2019 01:44:44 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:44:44 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[29-Nov-2019 01:44:44 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:44:44 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:44:44 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:44:44 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:44:44 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:44:44 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:44:44 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:44:44 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:44:44 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:44:44 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:44:44 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:44:44 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:44:44 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:44:49 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:44:49 UTC] PHP Stack trace:
+[29-Nov-2019 01:44:49 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[29-Nov-2019 01:44:49 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[29-Nov-2019 01:44:49 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:44:49 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:44:49 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:44:49 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:44:49 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:44:49 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:44:49 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:44:49 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:44:49 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:44:49 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:44:49 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:44:49 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:44:49 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:44:49 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:45:04 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:45:04 UTC] PHP Stack trace:
+[29-Nov-2019 01:45:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[29-Nov-2019 01:45:04 UTC] PHP   2. require() /app/public/index.php:17
+[29-Nov-2019 01:45:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:13
+[29-Nov-2019 01:45:04 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:45:04 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:45:04 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:45:04 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:45:04 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:45:04 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:45:04 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:45:04 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:45:04 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:45:04 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:45:04 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:45:04 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:45:04 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:45:13 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:45:13 UTC] PHP Stack trace:
+[29-Nov-2019 01:45:13 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[29-Nov-2019 01:45:13 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[29-Nov-2019 01:45:13 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:45:13 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:45:13 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:45:13 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:45:13 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:45:13 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:45:13 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:45:13 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:45:13 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:45:13 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:45:13 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:45:13 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:45:13 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:45:13 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:45:35 UTC] PHP Fatal error:  Uncaught Error: Class 'CSFramework_Metabox' not found in /app/public/wp-content/themes/meal/functions.php:18
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): meal_codestar_init('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(525): do_action('init')
+#4 /app/public/wp-config.php(81): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(34): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/index.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/themes/meal/functions.php on line 18
+[29-Nov-2019 01:46:47 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:46:47 UTC] PHP Stack trace:
+[29-Nov-2019 01:46:47 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[29-Nov-2019 01:46:47 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[29-Nov-2019 01:46:47 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:46:47 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:46:47 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:46:47 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:46:47 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:46:47 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:46:47 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:46:47 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:46:47 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:46:47 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:46:47 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:46:47 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:46:47 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:46:47 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:14 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:47:14 UTC] PHP Stack trace:
+[29-Nov-2019 01:47:14 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[29-Nov-2019 01:47:14 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[29-Nov-2019 01:47:14 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:47:14 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:47:14 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:47:14 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:47:14 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:47:14 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:47:14 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:47:14 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:47:14 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:14 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:14 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:47:14 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:47:14 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:14 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:15 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:47:15 UTC] PHP Stack trace:
+[29-Nov-2019 01:47:15 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[29-Nov-2019 01:47:15 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[29-Nov-2019 01:47:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:47:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:47:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:47:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:47:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:47:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:47:15 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:47:15 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:47:15 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:15 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:15 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:47:15 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:47:15 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:15 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:17 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:47:17 UTC] PHP Stack trace:
+[29-Nov-2019 01:47:17 UTC] PHP   1. {main}() /app/public/wp-admin/plugins.php:0
+[29-Nov-2019 01:47:17 UTC] PHP   2. require_once() /app/public/wp-admin/plugins.php:10
+[29-Nov-2019 01:47:17 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:47:17 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:47:17 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:47:17 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:47:17 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:47:17 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:47:17 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:47:17 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:47:17 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:17 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:17 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:47:17 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:47:17 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:17 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:25 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:47:25 UTC] PHP Stack trace:
+[29-Nov-2019 01:47:25 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[29-Nov-2019 01:47:25 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[29-Nov-2019 01:47:25 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:47:25 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:47:25 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:47:25 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:47:25 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:47:25 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:47:25 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:47:25 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:47:25 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:25 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:47:25 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:47:25 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:47:25 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:47:25 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:50:00 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:50:00 UTC] PHP Stack trace:
+[29-Nov-2019 01:50:00 UTC] PHP   1. {main}() /app/public/wp-admin/index.php:0
+[29-Nov-2019 01:50:00 UTC] PHP   2. require_once() /app/public/wp-admin/index.php:10
+[29-Nov-2019 01:50:00 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[29-Nov-2019 01:50:00 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:50:00 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:50:00 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:50:00 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:50:00 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:50:00 UTC] PHP   9. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:50:00 UTC] PHP  10. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:50:00 UTC] PHP  11. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:50:00 UTC] PHP  12. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:50:00 UTC] PHP  13. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:50:00 UTC] PHP  14. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:50:00 UTC] PHP  15. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:50:00 UTC] PHP  16. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:50:00 UTC] PHP Fatal error:  Class 'CSF_Fields' not found in /app/public/wp-content/themes/meal/lib/csf/fields/accordion/accordion.php on line 11
+[29-Nov-2019 01:50:00 UTC] PHP Stack trace:
+[29-Nov-2019 01:50:00 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[29-Nov-2019 01:50:00 UTC] PHP   2. require_once() /app/public/wp-cron.php:39
+[29-Nov-2019 01:50:00 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[29-Nov-2019 01:50:00 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[29-Nov-2019 01:50:00 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[29-Nov-2019 01:50:00 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[29-Nov-2019 01:50:00 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[29-Nov-2019 01:50:00 UTC] PHP   8. cs_framework_init() /app/public/wp-includes/class-wp-hook.php:286
+[29-Nov-2019 01:50:00 UTC] PHP   9. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework.php:67
+[29-Nov-2019 01:50:00 UTC] PHP  10. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:50:00 UTC] PHP  11. require_once() /app/public/wp-includes/template.php:722
+[29-Nov-2019 01:50:00 UTC] PHP  12. cs_load_option_fields() /app/public/wp-content/themes/meal/lib/csf/classes/options.class.php:352
+[29-Nov-2019 01:50:00 UTC] PHP  13. cs_locate_template() /app/public/wp-content/themes/meal/lib/csf/functions/helpers.php:232
+[29-Nov-2019 01:50:00 UTC] PHP  14. load_template() /app/public/wp-content/themes/meal/lib/csf/cs-framework-path.php:117
+[29-Nov-2019 01:50:00 UTC] PHP  15. require_once() /app/public/wp-includes/template.php:722

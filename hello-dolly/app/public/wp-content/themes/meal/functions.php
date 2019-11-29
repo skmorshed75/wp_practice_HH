@@ -1,6 +1,26 @@
 <?php
 //Class 25.2
 
+//Class 25.7
+require_once get_theme_file_path("/lib/csf/cs-framework.php");
+require_once get_theme_file_path("/inc/metaboxes/section.php");
+
+define('CS_ACTIVE_FRAMEWORK', false);
+define('CS_ACTIVE_METABOX', true);
+define('CS_ACTIVE_TAXONOMY', false);
+define('CS_ACTIVE_SHORTCODE', false);
+define('CS_ACTIVE_CUSTOMIZE', false);
+//End Class 25.7
+
+
+//Class 25.7
+function meal_codestar_init(){
+    CSFramework_Metabox::instance(array());
+}
+add_action('init','meal_codestar_init');
+//End Class 25.7
+
+
 //echo site_url();
 if(site_url() == "http://hellodolly.local"){
     define("VERSION", time());
@@ -66,7 +86,5 @@ function meal_theme_assets(){
     wp_enqueue_script('meal-main-js',get_theme_file_uri('/assets/js/main.js'),array('jquery'), VERSION, true);    
 }
 add_action('wp_enqueue_scripts','meal_theme_assets');
-
-
 
 
