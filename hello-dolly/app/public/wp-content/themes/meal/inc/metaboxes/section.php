@@ -1,6 +1,6 @@
 <?php
 //Class 25.7
-function meal_section_type_metabox($metaboxes){
+function meal_section_type_metabox($metaboxes){    
     $metaboxes[] = array(
         'id' => 'meal-section-type',
         'title'=>__('Section Type','meal'),
@@ -9,12 +9,11 @@ function meal_section_type_metabox($metaboxes){
         'priority'=>'default',
         'sections'=>array(
             array(
-                'id'=>'meal-section-type-section-one',
+                'name'=>'meal-section-type-section-one',
                 'icon'=>'fa fa-image',
-                'name'=>'',
                 'fields'=>array(
                     array(
-                        'name'=>'type',
+                        'id'=>'type',
                         'title'=>__('select-section-type','meal'),
                         'type'=>'select',
                         'options'=>array(
@@ -27,12 +26,14 @@ function meal_section_type_metabox($metaboxes){
                             'reservations'=>__('Reservations','meal'),
                             'testimonials'=>__('Testimonials','meal'),
                             'contact'=>__('Contact','meal'),
-                        ),
+                        )
                     )
                 ),            
             )
         ),        
     );
+    
     return $metaboxes;
 }
 add_filter('cs_metabox_options','meal_section_type_metabox');
+?>

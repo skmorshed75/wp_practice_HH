@@ -13,14 +13,6 @@ define('CS_ACTIVE_CUSTOMIZE', false);
 //End Class 25.7
 
 
-//Class 25.7
-function meal_codestar_init(){
-    CSFramework_Metabox::instance(array());
-}
-add_action('init','meal_codestar_init');
-//End Class 25.7
-
-
 //echo site_url();
 if(site_url() == "http://hellodolly.local"){
     define("VERSION", time());
@@ -87,4 +79,10 @@ function meal_theme_assets(){
 }
 add_action('wp_enqueue_scripts','meal_theme_assets');
 
+//Class 25.7
+function meal_codestar_init(){
+    CSFramework_Metabox::instance(array());
+}
+add_action('init','meal_codestar_init');
+//End Class 25.7
 
