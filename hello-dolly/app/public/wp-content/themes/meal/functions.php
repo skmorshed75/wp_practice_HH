@@ -4,6 +4,7 @@
 //Class 25.7
 require_once get_theme_file_path("/lib/csf/cs-framework.php");
 require_once get_theme_file_path("/inc/metaboxes/section.php");
+require_once get_theme_file_path("/inc/metaboxes/page.php");
 
 define('CS_ACTIVE_FRAMEWORK', false);
 define('CS_ACTIVE_METABOX', true);

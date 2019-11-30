@@ -9,11 +9,12 @@ function meal_section_type_metabox($metaboxes){
         'priority'=>'default',
         'sections'=>array(
             array(
-                'name'=>'meal-section-type-section-one',
+                'id'=>'meal-section-type-section-one',
+                'name' => '',
                 'icon'=>'fa fa-image',
                 'fields'=>array(
                     array(
-                        'id'=>'type',
+                        'name'=>'type',
                         'title'=>__('select-section-type','meal'),
                         'type'=>'select',
                         'options'=>array(
