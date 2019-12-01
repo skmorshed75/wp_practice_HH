@@ -5205,3 +5205,2065 @@ Stack trace:
 [30-Nov-2019 15:14:54 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
 [30-Nov-2019 15:14:54 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
 [30-Nov-2019 15:14:54 UTC] PHP  13. meal_section_picker_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[30-Nov-2019 15:26:21 UTC] PHP Notice:  Undefined index: name in /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php on line 121
+[30-Nov-2019 15:26:21 UTC] PHP Stack trace:
+[30-Nov-2019 15:26:21 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[30-Nov-2019 15:26:21 UTC] PHP   2. include() /app/public/wp-admin/post.php:197
+[30-Nov-2019 15:26:21 UTC] PHP   3. do_meta_boxes() /app/public/wp-admin/edit-form-advanced.php:642
+[30-Nov-2019 15:26:21 UTC] PHP   4. CSFramework_Metabox->render_meta_box_content() /app/public/wp-admin/includes/template.php:1310
+[30-Nov-2019 15:48:08 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 31
+[30-Nov-2019 15:48:09 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 31
+[30-Nov-2019 15:48:10 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 31
+[30-Nov-2019 15:48:32 UTC] PHP Fatal error:  Cannot redeclare meal_section_picker_metabox() (previously declared in /app/public/wp-content/themes/meal/inc/metaboxes/page.php:3) in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 3
+[30-Nov-2019 15:48:32 UTC] PHP Stack trace:
+[30-Nov-2019 15:48:32 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[30-Nov-2019 15:48:32 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[30-Nov-2019 15:48:32 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[30-Nov-2019 15:48:32 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[30-Nov-2019 15:48:32 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[30-Nov-2019 15:48:32 UTC] PHP   6. include() /app/public/wp-settings.php:499
+[30-Nov-2019 15:48:50 UTC] PHP Fatal error:  Cannot redeclare meal_section_picker_metabox() (previously declared in /app/public/wp-content/themes/meal/inc/metaboxes/page.php:3) in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 3
+[30-Nov-2019 15:48:50 UTC] PHP Stack trace:
+[30-Nov-2019 15:48:50 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[30-Nov-2019 15:48:50 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[30-Nov-2019 15:48:50 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[30-Nov-2019 15:48:50 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[30-Nov-2019 15:48:50 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[30-Nov-2019 15:48:50 UTC] PHP   6. include() /app/public/wp-settings.php:499
+[30-Nov-2019 17:22:32 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 7
+[30-Nov-2019 17:22:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 7
+[30-Nov-2019 17:22:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 7
+[30-Nov-2019 17:22:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 7
+[30-Nov-2019 17:22:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 7
+[01-Dec-2019 14:28:51 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 10
+[01-Dec-2019 14:28:51 UTC] PHP Stack trace:
+[01-Dec-2019 14:28:51 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[01-Dec-2019 14:28:51 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[01-Dec-2019 14:28:51 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[01-Dec-2019 14:28:51 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[01-Dec-2019 14:28:51 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[01-Dec-2019 14:28:51 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[01-Dec-2019 14:28:51 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[01-Dec-2019 14:28:51 UTC] PHP   8. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[01-Dec-2019 14:28:51 UTC] PHP   9. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:86
+[01-Dec-2019 14:28:51 UTC] PHP  10. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[01-Dec-2019 14:28:51 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[01-Dec-2019 14:28:51 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[01-Dec-2019 14:28:51 UTC] PHP  13. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[01-Dec-2019 14:28:51 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 10
+[01-Dec-2019 14:28:51 UTC] PHP Stack trace:
+[01-Dec-2019 14:28:51 UTC] PHP   1. {main}() /app/public/wp-admin/admin-ajax.php:0
+[01-Dec-2019 14:28:51 UTC] PHP   2. require_once() /app/public/wp-admin/admin-ajax.php:22
+[01-Dec-2019 14:28:51 UTC] PHP   3. require_once() /app/public/wp-load.php:37
+[01-Dec-2019 14:28:51 UTC] PHP   4. require_once() /app/public/wp-config.php:81
+[01-Dec-2019 14:28:51 UTC] PHP   5. do_action() /app/public/wp-settings.php:525
+[01-Dec-2019 14:28:51 UTC] PHP   6. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[01-Dec-2019 14:28:51 UTC] PHP   7. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[01-Dec-2019 14:28:51 UTC] PHP   8. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[01-Dec-2019 14:28:51 UTC] PHP   9. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:86
+[01-Dec-2019 14:28:51 UTC] PHP  10. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[01-Dec-2019 14:28:51 UTC] PHP  11. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[01-Dec-2019 14:28:51 UTC] PHP  12. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[01-Dec-2019 14:28:51 UTC] PHP  13. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[01-Dec-2019 14:45:33 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:45:33 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:33 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:33 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:33 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:33 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:33 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:33 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:33 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:33 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:33 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:33 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:45:33 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:45:33 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:33 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:33 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:33 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:33 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:33 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:33 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:33 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:33 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:33 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:33 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:45:35 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:45:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:35 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:45:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:35 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:45:35 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:45:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:35 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:45:35 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:45:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:35 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:45:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:35 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:45:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:35 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:45:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:35 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:45:35 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:45:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:35 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:45:59 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:45:59 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:59 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:59 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:59 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:59 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:59 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:59 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:59 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:45:59 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:45:59 UTC] PHP Stack trace:
+[01-Dec-2019 14:45:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:45:59 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:45:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:45:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:45:59 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:45:59 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:45:59 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:45:59 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:45:59 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:45:59 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:46:00 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:46:00 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:00 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:00 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:00 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:00 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:00 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:00 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:00 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:00 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:00 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:46:00 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:00 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:46:00 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:00 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:46:00 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:00 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:00 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:00 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:00 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:00 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:00 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:00 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:00 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:00 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:00 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:00 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:00 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:00 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:00 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:00 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:00 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:00 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:46:00 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:00 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:00 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:46:00 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:46:00 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:00 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:00 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:00 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:00 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:00 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:00 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:46:00 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:00 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:00 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:00 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:00 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:00 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:00 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:00 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:00 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:46:00 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:00 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:00 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:00 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:00 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:00 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:00 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:46:00 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:46:00 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:00 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:00 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:00 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:00 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:00 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:00 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:00 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:00 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:00 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:00 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:46:02 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:46:02 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:02 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:02 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:02 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:02 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:02 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:02 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:02 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:02 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:02 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:02 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:46:02 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:46:02 UTC] PHP Stack trace:
+[01-Dec-2019 14:46:02 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:46:02 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:46:02 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:46:02 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:46:02 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:46:02 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:46:02 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:46:02 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:46:02 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:46:02 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:13 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:13 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:13 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:13 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:13 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:13 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:13 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:13 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:13 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:13 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:13 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:14 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:14 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:14 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:14 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:14 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:14 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:14 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:14 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:14 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:14 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:24 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:24 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:24 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:24 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:24 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:24 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:24 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:24 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:24 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:24 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:24 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:24 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:24 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:24 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:24 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:24 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:24 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:24 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:24 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:24 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:24 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:25 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:25 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:25 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:25 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:25 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:25 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:25 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:25 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:25 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:25 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:25 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:34 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:34 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:34 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:34 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:34 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:34 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:34 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:34 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:34 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:34 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:35 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:35 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:35 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:35 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:35 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 14:48:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:35 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:35 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:35 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:35 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 14:48:35 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:35 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 14:48:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:48:35 UTC] PHP Stack trace:
+[01-Dec-2019 14:48:35 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 14:48:35 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 14:48:35 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 14:48:35 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 14:48:35 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 14:48:35 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 14:48:35 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 14:48:35 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 14:48:35 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:14
+[01-Dec-2019 14:48:35 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 14:48:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 14:50:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(24): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:05:26 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:05:26 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:26 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:26 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:26 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:26 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:26 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:26 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:26 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:26 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:26 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:26 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:05:26 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:05:26 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:26 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:26 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:26 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:26 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:26 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:26 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:26 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:26 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:26 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:26 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:05:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:05:27 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:05:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:27 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:05:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:27 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:27 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:05:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:27 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:05:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:27 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:27 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:05:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:27 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:05:27 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:27 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:05:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:05:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:27 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:05:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:27 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:27 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:05:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:05:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:27 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:27 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:05:27 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:05:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:05:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:05:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:05:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:05:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:05:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:05:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:05:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:05:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:05:27 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:05:27 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:05:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:08:06 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:08:06 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:06 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:06 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:06 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:06 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:06 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:06 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:06 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:08:06 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:08:06 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:06 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:06 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:06 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:06 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:06 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:06 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:06 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:08:06 UTC] PHP Notice:  Undefined variable: meal_section_title in /app/public/wp-content/themes/meal/section-templates/banner.php on line 20
+[01-Dec-2019 15:08:06 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:06 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:06 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:06 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:06 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:06 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:06 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 23
+[01-Dec-2019 15:08:06 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:06 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:06 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:06 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:06 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:06 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:06 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:08:06 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:06 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:06 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:06 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:06 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:06 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:06 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:06 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:06 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters(NULL)
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:08:07 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:07 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_title in /app/public/wp-content/themes/meal/section-templates/banner.php on line 20
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Warning:  stripos() expects parameter 1 to be string, array given in /app/public/wp-includes/formatting.php on line 4200
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 23
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_title in /app/public/wp-content/themes/meal/section-templates/banner.php on line 20
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP  10. stripos() /app/public/wp-includes/formatting.php:4200
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Array to string conversion in /app/public/wp-includes/formatting.php on line 4137
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 23
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters(NULL)
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   9. esc_url() /app/public/wp-content/themes/meal/section-templates/banner.php:15
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP  10. _deep_replace() /app/public/wp-includes/formatting.php:4202
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_title in /app/public/wp-content/themes/meal/section-templates/banner.php on line 20
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 23
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters(NULL)
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Notice:  Undefined variable: meal_section_description in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:08:07 UTC] PHP Stack trace:
+[01-Dec-2019 15:08:07 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:08:07 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:08:07 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:08:07 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:08:07 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:08:07 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:08:07 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:08:07 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:08:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters(NULL)
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:10:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:10:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:10:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:10:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:10:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:11:32 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:11:32 UTC] PHP Stack trace:
+[01-Dec-2019 15:11:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:11:32 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:11:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:11:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:11:32 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:11:32 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:11:32 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:11:32 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:11:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:11:32 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:11:32 UTC] PHP Stack trace:
+[01-Dec-2019 15:11:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:11:32 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:11:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:11:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:11:32 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:11:32 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:11:32 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:11:32 UTC] PHP Stack trace:
+[01-Dec-2019 15:11:32 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:11:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:11:32 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:11:32 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:11:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:11:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:11:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:11:32 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:11:32 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:11:32 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:11:32 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:11:32 UTC] PHP Stack trace:
+[01-Dec-2019 15:11:32 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:11:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:11:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:11:32 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:11:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:11:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:11:32 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:11:32 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:11:32 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:11:32 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:11:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:13:58 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:13:58 UTC] PHP Stack trace:
+[01-Dec-2019 15:13:58 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:13:58 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:13:58 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:13:58 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:13:58 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:13:58 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:13:58 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:13:58 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:13:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:13:59 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:13:59 UTC] PHP Stack trace:
+[01-Dec-2019 15:13:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:13:59 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:13:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:13:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:13:59 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:13:59 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:13:59 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:13:59 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:13:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:13:59 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:13:59 UTC] PHP Stack trace:
+[01-Dec-2019 15:13:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:13:59 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:13:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:13:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:13:59 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:13:59 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:13:59 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:13:59 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:13:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:13:59 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:13:59 UTC] PHP Stack trace:
+[01-Dec-2019 15:13:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:13:59 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:13:59 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:13:59 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:13:59 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:13:59 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:13:59 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:13:59 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:13:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:14:04 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:14:04 UTC] PHP Stack trace:
+[01-Dec-2019 15:14:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:14:04 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:14:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:14:04 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:14:04 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:14:04 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:14:04 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:14:04 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:14:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:14:05 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:14:05 UTC] PHP Stack trace:
+[01-Dec-2019 15:14:05 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:14:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:14:05 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:14:05 UTC] PHP Stack trace:
+[01-Dec-2019 15:14:05 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:14:05 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:14:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:14:05 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:14:05 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:14:05 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:14:05 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:14:05 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:14:05 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:14:05 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:14:05 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:14:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:14:05 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:14:05 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:14:05 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:14:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:14:05 UTC] PHP Notice:  Array to string conversion in /app/public/wp-content/themes/meal/section-templates/banner.php on line 15
+[01-Dec-2019 15:14:05 UTC] PHP Stack trace:
+[01-Dec-2019 15:14:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:14:05 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:14:05 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:14:05 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:14:05 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:14:05 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:14:05 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:14:05 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:14:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:17:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:17:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:17:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:17:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:18:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(25): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:27 UTC] PHP Notice:  Undefined variable: section_id in /app/public/wp-content/themes/meal/section-templates/banner.php on line 3
+[01-Dec-2019 15:22:27 UTC] PHP Stack trace:
+[01-Dec-2019 15:22:27 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:22:27 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:22:27 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:22:27 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:22:27 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:22:27 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:22:27 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:22:27 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:22:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:28 UTC] PHP Notice:  Undefined variable: section_id in /app/public/wp-content/themes/meal/section-templates/banner.php on line 3
+[01-Dec-2019 15:22:28 UTC] PHP Stack trace:
+[01-Dec-2019 15:22:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:22:28 UTC] PHP Notice:  Undefined variable: section_id in /app/public/wp-content/themes/meal/section-templates/banner.php on line 3
+[01-Dec-2019 15:22:28 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:22:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:22:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:22:28 UTC] PHP Stack trace:
+[01-Dec-2019 15:22:28 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:22:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:22:28 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:22:28 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:22:28 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:22:28 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:22:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:22:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:22:28 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:22:28 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:22:28 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:22:28 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:22:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:28 UTC] PHP Notice:  Undefined variable: section_id in /app/public/wp-content/themes/meal/section-templates/banner.php on line 3
+[01-Dec-2019 15:22:28 UTC] PHP Stack trace:
+[01-Dec-2019 15:22:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:22:28 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:22:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:22:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:22:28 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:22:28 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:22:28 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:22:28 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:22:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:28 UTC] PHP Notice:  Undefined variable: section_id in /app/public/wp-content/themes/meal/section-templates/banner.php on line 3
+[01-Dec-2019 15:22:28 UTC] PHP Stack trace:
+[01-Dec-2019 15:22:28 UTC] PHP   1. {main}() /app/public/index.php:0
+[01-Dec-2019 15:22:28 UTC] PHP   2. require() /app/public/index.php:17
+[01-Dec-2019 15:22:28 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[01-Dec-2019 15:22:28 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[01-Dec-2019 15:22:28 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/index.php:7
+[01-Dec-2019 15:22:28 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[01-Dec-2019 15:22:28 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[01-Dec-2019 15:22:28 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[01-Dec-2019 15:22:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:22:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(30): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:24:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in /app/public/wp-content/themes/meal/section-templates/banner.php on line 28 and exactly 2 expected in /app/public/wp-includes/plugin.php:178
+Stack trace:
+#0 /app/public/wp-content/themes/meal/section-templates/banner.php(28): apply_filters('')
+#1 /app/public/wp-includes/template.php(724): require('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#3 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#4 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#5 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/plugin.php on line 178
+[01-Dec-2019 15:28:41 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30
+[01-Dec-2019 15:28:42 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30
+[01-Dec-2019 15:28:42 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30
+[01-Dec-2019 15:28:42 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 30
+[01-Dec-2019 15:29:24 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 27
+[01-Dec-2019 15:29:25 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 27
+[01-Dec-2019 15:29:25 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 27
+[01-Dec-2019 15:29:25 UTC] PHP Parse error:  syntax error, unexpected '$meal_section_description' (T_VARIABLE), expecting ',' or ')' in /app/public/wp-content/themes/meal/section-templates/banner.php on line 27
+[01-Dec-2019 15:45:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:45:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:45:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:45:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/banner.php on line 25
+[01-Dec-2019 15:45:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function kses_post() in /app/public/wp-content/themes/meal/section-templates/banner.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24
+[01-Dec-2019 15:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function kses_post() in /app/public/wp-content/themes/meal/section-templates/banner.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24
+[01-Dec-2019 15:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function kses_post() in /app/public/wp-content/themes/meal/section-templates/banner.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24
+[01-Dec-2019 15:45:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function kses_post() in /app/public/wp-content/themes/meal/section-templates/banner.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(724): require()
+#1 /app/public/wp-includes/template.php(671): load_template('/app/public/wp-...', false)
+#2 /app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /app/public/wp-content/themes/meal/index.php(7): get_template_part('section-templat...')
+#4 /app/public/wp-includes/template-loader.php(78): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/meal/section-templates/banner.php on line 24
