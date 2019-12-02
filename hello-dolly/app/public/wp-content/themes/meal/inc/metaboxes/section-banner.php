@@ -2,17 +2,23 @@
 //Class 25.9
 function meal_banner_section_metabox($metaboxes){
     $section_id = 0;
+    
+
     if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
         $section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
     }
-    
+    //Class 25.10
+    if('section' != get_post_type($section_id)){
+        return $metaboxes;
+    }
+    //End Class 25.10    
     $section_meta = get_post_meta($section_id, 'meal-section-type',true);
     $section_type = $section_meta['type'];
     if('banner' !=$section_type ){
         return $metaboxes;
     }
     $metaboxes[] = array(
-        'id' => 'meal-sections-banner',
+        'id' => 'meal-section-banner',
         'title'=>__('Banner Settings','meal'),
         'post_type'=>'section',
         'context'=>'normal',

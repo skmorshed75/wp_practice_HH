@@ -56,6 +56,7 @@ function mealc_register_my_cpts_section() {
 		"menu_position" => 5,
 		"menu_icon" => "dashicons-media-document",
 		"supports" => [ "title", "editor", "thumbnail" ],
+        
 	];
 
 	register_post_type( "section", $args );
@@ -64,6 +65,7 @@ function mealc_register_my_cpts_section() {
     $labels = [
 		"name" => __( "Recipes", "meal-companion" ),
 		"singular_name" => __( "recipe", "meal-companion" ),
+		"featured_image" => __( "Recipe Photo", "meal-companion" ),
 	];
 
 	$args = [
@@ -88,7 +90,10 @@ function mealc_register_my_cpts_section() {
 		"rewrite" => [ "slug" => "recipe", "with_front" => false ],
 		"query_var" => true,
 		"menu_position" => 5,
-		"supports" => [ "title", "editor", "thumbnail" ],
+		"supports" => [ "title", "editor", "thumbnail", "excerpt" ],
+        "taxonomies" => array('category')
+        
+        //"taxonomies" => array('category'),
 	];
 
 	register_post_type( "recipe", $args );

@@ -1,6 +1,6 @@
 <?php
 global $meal_section_id;
-$meal_section_meta = get_post_meta($meal_section_id,'meal-sections-banner',true);
+$meal_section_meta = get_post_meta($meal_section_id,'meal-section-banner',true);
 //print_r($meal_section_meta);
 $meal_banner_image = get_template_directory_uri().'/assets/images/slider-1.jpg';
 if(isset($meal_section_meta['banner_image'])){
@@ -35,8 +35,8 @@ $meal_section_description = $meal_section->post_content;
 //                    echo wp_kses_post($description);
                     ?>
                     <p>
-                       <a 
-                           href="<?php echo esc_url($meal_section_meta['button_target']); ?>" class="smoothscroll btn btn-outline-white px-5 py-3"><?php echo esc_html($meal_section_meta['button_title']); ?>
+                       <a href="<?php echo esc_url($meal_section_meta['button_target']); ?>" class="smoothscroll btn btn-outline-white px-5 py-3">
+                            <?php echo esc_html($meal_section_meta['button_title']); ?>
                         </a>
                     </p>
                 </div>
