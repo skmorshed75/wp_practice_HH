@@ -1,18 +1,18 @@
 <?php
 //Class 25.10
 function meal_featured_section_metabox($metaboxes){
-    $section_id = 0;
+    $meal_section_id = 0;
 
     
     if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
-        $section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
+        $meal_section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
     }
 
-    if('section' != get_post_type($section_id)){
+    if('section' != get_post_type($meal_section_id)){
         return $metaboxes;
     }
     
-    $section_meta = get_post_meta($section_id, 'meal-section-type',true);
+    $section_meta = get_post_meta($meal_section_id, 'meal-section-type',true);
     $section_type = $section_meta['type'];
     if('featured' !=$section_type ){
         return $metaboxes;

@@ -3,9 +3,21 @@ get_header();
 ?>
     <div class="main-wrap " id="section-home">
         <?php
-            $meal_section_id = 376;
-            get_template_part('section-templates/banner');
+        //Banner Section
+        $meal_section_id = 376;
+        get_template_part('section-templates/banner');
+            
+            
+        //Featured Section
+        $meal_section_id = 393;        
+        get_template_part('section-templates/featured');
+
+        
+        //Galelry / Portfolio Section
+        $meal_section_id = 394;        
+        get_template_part('section-templates/gallery');
         ?>
+
 
         <div class="section" data-aos="fade-up">
             <div class="container">
