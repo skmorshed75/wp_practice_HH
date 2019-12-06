@@ -2,19 +2,17 @@
 //Class 25.11
 function meal_gallery_section_metabox($metaboxes){
     $meal_section_id = 0;
+
+    //Class 25.10
+    if('section' != get_post_type($meal_section_id)){
+        return $metaboxes;
+    }    
     
     if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
         $meal_section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
     }
     
-    //Class 25.10
-//    if('section' != get_post_type($meal_section_id)){
-//        return $metaboxes;
-//    }
-	if ('section'!=get_post_type($meal_section_id)) {
-		return $metaboxes;
-	}    
-    
+
     //End Class 25.10    
 //    $section_meta = get_post_meta($meal_section_id, 'meal-section-type',true);
 //    $section_type = $section_meta['type'];

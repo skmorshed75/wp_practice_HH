@@ -22,9 +22,9 @@ $meal_section_description = $meal_section->post_content;
         <div class="row">
             <?php
             $meal_section_recipes = $meal_section_meta['recipes'];
-            $meal_recipe_one = get_post($meal_section_recipes[2]['recipe']);
-            $meal_recipe_two = get_post($meal_section_recipes[3]['recipe']);
-            $meal_recipe_three = get_post($meal_section_recipes[4]['recipe']);
+            $meal_recipe_one = get_post($meal_section_recipes[1]['recipe']);
+            $meal_recipe_two = get_post($meal_section_recipes[2]['recipe']);
+            $meal_recipe_three = get_post($meal_section_recipes[3]['recipe']);
             ?>
            
             <div class="ftco-46">

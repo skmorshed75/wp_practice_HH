@@ -9,17 +9,18 @@ get_header();
     <div class="main-wrap " id="section-home">
         <?php
         //Banner Section
-        $meal_section_id = 376;
+        $meal_section_id = 452;
         get_template_part('section-templates/banner');
             
             
         //Featured Section
-        $meal_section_id = 393;        
+        //$meal_section_id = 393;        
+        $meal_section_id = 444;
         get_template_part('section-templates/featured');
 
         
-        //Galelry / Portfolio Section
-        $meal_section_id = 394;        
+        //Gallery / Portfolio Section
+        $meal_section_id = 415;        
         get_template_part('section-templates/gallery');
         ?>
 

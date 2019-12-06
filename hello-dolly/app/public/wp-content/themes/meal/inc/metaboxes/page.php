@@ -20,11 +20,11 @@ function meal_section_picker_metabox($metaboxes){
             array(
                 'id'=>'meal-page-sections-section-one',
                 'name' => '',
-                'icon'=>'fa fa-book',
+                'icon'=>'fa fa-image',
                 'fields'=>array(
                     array(
                         'id'=>'sections',
-                        'title'=>__('select-sections','meal'),
+                        'title'=>__('Select sections','meal'),
                         'type'=>'group',
                         'button_title'=>__('New Section','meal'),
                         'accordion_title'=>__('Add New Field','meal'),

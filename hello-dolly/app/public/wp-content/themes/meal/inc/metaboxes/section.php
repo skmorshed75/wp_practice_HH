@@ -14,7 +14,7 @@ function meal_section_type_metabox($metaboxes){
                 'fields'=>array(
                     array(
                         'id'=>'type',
-                        'title'=>__('select-section-type','meal'),
+                        'title'=>__('Select Section Type','meal'),
                         'type'=>'select',
                         'options'=>array(
                             'banner'=>__('Banner','meal'),

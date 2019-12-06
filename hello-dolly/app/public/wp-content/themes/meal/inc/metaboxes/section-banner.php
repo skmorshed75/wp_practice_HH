@@ -7,18 +7,24 @@ function meal_banner_section_metabox($metaboxes){
     if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
         $meal_section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
     }
+
     //Class 25.10
     if('section' != get_post_type($meal_section_id)){
         return $metaboxes;
-    }
+    }  
+        
+    //echo $meal_section_id;    
     //End Class 25.10    
-    $section_meta = get_post_meta($meal_section_id, 'meal-section-type',true);
-    $section_type = $section_meta['type'];
+	$section_meta = get_post_meta($meal_section_id,'meal-section-type',true);
+	$section_type = $section_meta['type'];
+    
+//    $section_meta = get_post_meta($meal_section_id, 'meal-section-type',true);
+//    $section_type = $section_meta['type'];
     if('banner' !=$section_type ){
         return $metaboxes;
     }
     $metaboxes[] = array(
-        'id' => 'meal-section-banner',
+        'id' => 'meal-section-banner',        
         'title'=>__('Banner Settings','meal'),
         'post_type'=>'section',
         'context'=>'normal',
