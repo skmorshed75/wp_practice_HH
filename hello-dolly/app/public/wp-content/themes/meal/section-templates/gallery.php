@@ -36,7 +36,7 @@ foreach($meal_gallery_items as $meal_gallery_item){
     $meal_gallery_item_categories = explode(",",$meal_gallery_item['categories']);
     foreach($meal_gallery_item_categories as $meal_gallery_item_category){
         $meal_gallery_item_category = trim($meal_gallery_item_category);
-        if(!in_array($meal_gallery_item,$meal_item_categories)){
+        if(!in_array($meal_gallery_item_category,$meal_item_categories)){
             array_push($meal_item_categories,$meal_gallery_item_category);
         }
     }
@@ -50,129 +50,54 @@ foreach($meal_gallery_items as $meal_gallery_item){
             <div class="col-md-12">
                 <div class="text-center">
                     <ul class="portfolio-filter text-center">
-                        <li class="active"><a href="#" data-filter="*"> All</a></li>
-                        <li><a href="#" data-filter=".cat1">Salad</a></li>
-                        <li><a href="#" data-filter=".cat2">Bread</a></li>
-                        <li><a href="#" data-filter=".cat3">Fish</a></li>
-                        <li><a href="#" data-filter=".cat4">Meat</a></li>
-                        <li><a href="#" data-filter=".cat5">Fruits</a></li>
+                        <li class="active"><a href="#" data-filter="*"><?php _e('All','meal'); ?></a></li>
+                        <?php
+                        foreach($meal_item_categories as $meal_item_category):
+                        ?>
+                            <li><a href="#" data-filter=".<?php echo esc_attr($meal_item_category); ?>"><?php echo esc_html($meal_item_category); ?></a></li>
+                        <?php
+                        endforeach;
+                        ?>
+                        
                     </ul>
                 </div>
 
                 <div class="portfolio-grid portfolio-gallery grid-4 gutter">
+                    <?php
+                    foreach($meal_gallery_items as $meal_gallery_item):
+                        $meal_item_class = str_replace(","," ",$meal_gallery_item['categories'] );
+                        $meal_item_image_id = $meal_gallery_item['image'];
+                        //$meal_item_title = $meal_gallery_item['title'];
+                        $meal_item_thumbnail = wp_get_attachment_image_src($meal_item_image_id,'medium');
+                        $meal_item_large = wp_get_attachment_image_src($meal_item_image_id,'large');
+                        $meal_item_categories_array = explode(",",$meal_gallery_item['categories']);
+                    ?>
+                        <div class="portfolio-item <?php echo esc_attr($meal_item_class); ?>">
+                            <a href="<?php echo esc_url($meal_item_large[0]); ?>" class="portfolio-image popup-gallery" title="Bread">
+                                <img src="<?php echo esc_attr($meal_item_thumbnail[0]); ?>" alt=""/>
+                                <div class="portfolio-hover-title">
+                                    <div class="portfolio-content">
+                                        <h4><?php echo esc_html($meal_gallery_item['title']); ?></h4>
+                                        <div class="portfolio-category">
+                                            <?php
+                                            foreach($meal_item_categories_array as $meal_item_category):
+                                                printf("<span>%s</span>", trim($meal_item_category));
+                                            ?>
+                                                <span>
+                                                    <?php //echo esc_html($meal_item_category); ?>
+                                                </span>
+                                            <?php
+                                            endforeach;
+                                            ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>                    
+                    <?php
+                    endforeach;
+                    ?>
 
-                    <div class="portfolio-item cat2 cat3 cat4">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" class="portfolio-image popup-gallery" title="Bread">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img1.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Branding</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat2 cat3 cat4">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img9.jpg" class="portfolio-image popup-gallery" title="Bread">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img9.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Branding</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat1 cat2 cat3">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img2.jpg" class="portfolio-image popup-gallery" title="Design">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img2.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Design</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat1 cat4">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img10.jpg" class="portfolio-image popup-gallery" title="Photography">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img10.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Photography</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat3 cat5">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img4.jpg" class="portfolio-image popup-gallery" title="Marketing">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img4.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Marketing</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat4 cat5">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img5.jpg" class="portfolio-image popup-gallery" title="Web Desgin">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img5.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Web Design</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat2 cat3">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img7.jpg" class="portfolio-image popup-gallery" title="Media">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img7.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Media</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="portfolio-item cat3 cat4 cat5">
-                        <a href="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" class="portfolio-image popup-gallery" title="Portfolio">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/img6.jpg" alt=""/>
-                            <div class="portfolio-hover-title">
-                                <div class="portfolio-content">
-                                    <h4>Portfolio</h4>
-                                    <div class="portfolio-category">
-                                        <span>Cat 1</span>
-                                        <span>Cat 2</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>

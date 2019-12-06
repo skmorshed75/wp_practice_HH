@@ -5,10 +5,12 @@
 require_once get_theme_file_path("/lib/csf/cs-framework.php");
 require_once get_theme_file_path("/inc/metaboxes/section.php");
 require_once get_theme_file_path("/inc/metaboxes/page.php");
+//Class 25.09
 require_once get_theme_file_path("/inc/metaboxes/section-banner.php");
+//Class 25.10
 require_once get_theme_file_path("/inc/metaboxes/section-featured.php");
 //Class 25.11
-//require_once get_theme_file_path("/inc/metaboxes/section-gallery.php");
+require_once get_theme_file_path("/inc/metaboxes/section-gallery.php");
 
 define('CS_ACTIVE_FRAMEWORK', false);
 define('CS_ACTIVE_METABOX', true);

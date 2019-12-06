@@ -3,22 +3,15 @@
 function meal_gallery_section_metabox($metaboxes){
     $meal_section_id = 0;
 
+
+    if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
+        $meal_section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
+    }
     //Class 25.10
     if('section' != get_post_type($meal_section_id)){
         return $metaboxes;
     }    
     
-    if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
-        $meal_section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
-    }
-    
-
-    //End Class 25.10    
-//    $section_meta = get_post_meta($meal_section_id, 'meal-section-type',true);
-//    $section_type = $section_meta['type'];
-//    if('gallery' !=$section_type ){
-//        return $metaboxes;
-//    }
 	$section_meta = get_post_meta($meal_section_id,'meal-section-type',true);
 	$section_type = $section_meta['type'];
 	if ('gallery' != $section_type) {
@@ -45,6 +38,11 @@ function meal_gallery_section_metabox($metaboxes){
                         'button_title'=>__('New Image','meal'),
                         'accordion_title'=>__('Add New Image','meal'),
                         'fields' => array(
+                            array(
+                                'id'=>'title',
+                                'type'=>'text',
+                                'title'=>__('Title','meal'),
+                            ),
                             array(
                                 'id'=>'image',
                                 'type'=>'image',
