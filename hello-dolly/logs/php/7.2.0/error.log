@@ -23797,3 +23797,2058 @@ Stack trace:
 #7 /app/public/index.php(17): require('/app/public/wp-...')
 #8 {main}
   thrown in /app/public/wp-includes/formatting.php on line 4352
+[06-Dec-2019 12:48:41 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:48:41 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:48:41 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:48:41 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:48:41 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:48:41 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:48:41 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:48:41 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:48:41 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 12:48:41 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:41 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:41 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:48:41 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 12:48:41 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:48:41 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:48:41 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:48:41 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 12:48:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 12:48:42 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:42 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:42 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 12:48:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 12:48:42 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:42 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:42 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:48:42 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:48:42 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 12:48:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 12:48:42 UTC] PHP Stack trace:
+[06-Dec-2019 12:48:42 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:48:42 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:48:42 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:48:42 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:54:39 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:54:39 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:54:39 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:54:39 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:54:39 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:54:39 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:54:39 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:54:39 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:54:39 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 12:54:39 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:54:39 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:54:39 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:54:39 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:54:39 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:54:39 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 12:54:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 12:54:39 UTC] PHP Stack trace:
+[06-Dec-2019 12:54:39 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:54:39 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:54:39 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:54:39 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 12:56:12 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:56:12 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:12 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:12 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:12 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:56:12 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:56:12 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:56:12 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:56:12 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:12 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:12 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:12 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:56:12 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:56:12 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:56:12 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:56:12 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:12 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:56:12 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:12 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:12 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:12 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:56:12 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:56:12 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:56:12 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:56:12 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:12 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:12 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:12 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:56:12 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:56:12 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:56:12 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:56:12 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:12 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:56:12 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:12 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:12 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:12 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:56:12 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:56:12 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:56:12 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:56:12 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:12 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:12 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:12 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:56:12 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:56:12 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:56:12 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:56:13 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:13 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:56:13 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:56:13 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:56:13 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:56:13 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:13 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:13 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:56:13 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:56:13 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:56:13 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:56:13 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:13 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:56:13 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:56:13 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:56:13 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:56:13 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:13 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:13 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:56:13 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:56:13 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:56:13 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:56:13 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:13 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:56:13 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:56:13 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:56:13 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:56:13 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:13 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:13 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:56:13 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:56:13 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:56:13 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:56:13 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:56:13 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 12:56:13 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:56:13 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:56:13 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:56:13 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 12:56:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 12:56:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:56:13 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:56:13 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 12:56:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 12:56:13 UTC] PHP Stack trace:
+[06-Dec-2019 12:56:13 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:56:13 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:56:13 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:56:13 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 12:58:15 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:58:15 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:15 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:15 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:15 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:58:15 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:58:15 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:58:15 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:58:15 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:15 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:15 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:15 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:58:15 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:58:15 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:58:15 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:58:15 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 12:58:16 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:16 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:16 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:58:16 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 12:58:16 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:58:16 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:58:16 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:58:16 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 12:58:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 12:58:16 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:16 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:16 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 12:58:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 12:58:16 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:16 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:16 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:58:16 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:58:16 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 12:58:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 12:58:16 UTC] PHP Stack trace:
+[06-Dec-2019 12:58:16 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:58:16 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:58:16 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:58:16 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 12:59:24 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 12:59:24 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 12:59:24 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 12:59:24 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 12:59:24 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 12:59:24 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 12:59:24 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 12:59:24 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 12:59:24 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 12:59:24 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 12:59:24 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 12:59:24 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 12:59:24 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:59:24 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:59:24 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 12:59:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 12:59:24 UTC] PHP Stack trace:
+[06-Dec-2019 12:59:24 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 12:59:24 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 12:59:24 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 12:59:24 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:00:28 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:00:28 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:00:28 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:00:28 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:00:28 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:00:28 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:00:28 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:00:28 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:00:28 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 13:00:28 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:00:28 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:00:28 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:00:28 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 13:00:28 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 13:00:28 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 13:00:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 13:00:28 UTC] PHP Stack trace:
+[06-Dec-2019 13:00:28 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:00:28 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 13:00:28 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 13:00:28 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php on line 19
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_banner_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-featured.php on line 17
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_featured_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-gallery.php on line 16
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_gallery_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Illegal string offset 'type' in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Notice:  Uninitialized string offset: 0 in /app/public/wp-content/themes/meal/inc/metaboxes/section-chef.php on line 16
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. require_once() /app/public/wp-admin/admin.php:34
+[06-Dec-2019 13:03:57 UTC] PHP   4. require_once() /app/public/wp-load.php:37
+[06-Dec-2019 13:03:57 UTC] PHP   5. require_once() /app/public/wp-config.php:81
+[06-Dec-2019 13:03:57 UTC] PHP   6. do_action() /app/public/wp-settings.php:525
+[06-Dec-2019 13:03:57 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   9. meal_codestar_init() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP  10. CSFramework_Metabox::instance() /app/public/wp-content/themes/meal/functions.php:93
+[06-Dec-2019 13:03:57 UTC] PHP  11. CSFramework_Metabox->__construct() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:45
+[06-Dec-2019 13:03:57 UTC] PHP  12. apply_filters() /app/public/wp-content/themes/meal/lib/csf/classes/metabox.class.php:33
+[06-Dec-2019 13:03:57 UTC] PHP  13. WP_Hook->apply_filters() /app/public/wp-includes/plugin.php:208
+[06-Dec-2019 13:03:57 UTC] PHP  14. meal_chef_section_metabox() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/includes/misc.php on line 1196
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. require_once() /app/public/wp-admin/post.php:12
+[06-Dec-2019 13:03:57 UTC] PHP   3. do_action() /app/public/wp-admin/admin.php:169
+[06-Dec-2019 13:03:57 UTC] PHP   4. WP_Hook->do_action() /app/public/wp-includes/plugin.php:465
+[06-Dec-2019 13:03:57 UTC] PHP   5. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2019 13:03:57 UTC] PHP   6. wp_admin_headers() /app/public/wp-includes/class-wp-hook.php:286
+[06-Dec-2019 13:03:57 UTC] PHP   7. header() /app/public/wp-admin/includes/misc.php:1196
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-admin/post.php on line 222
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. setcookie() /app/public/wp-admin/post.php:222
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1251
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 13:03:57 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 13:03:57 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1251
+[06-Dec-2019 13:03:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/meal/inc/metaboxes/section-banner.php:19) in /app/public/wp-includes/pluggable.php on line 1254
+[06-Dec-2019 13:03:57 UTC] PHP Stack trace:
+[06-Dec-2019 13:03:57 UTC] PHP   1. {main}() /app/public/wp-admin/post.php:0
+[06-Dec-2019 13:03:57 UTC] PHP   2. redirect_post() /app/public/wp-admin/post.php:225
+[06-Dec-2019 13:03:57 UTC] PHP   3. wp_redirect() /app/public/wp-admin/includes/post.php:1983
+[06-Dec-2019 13:03:57 UTC] PHP   4. header() /app/public/wp-includes/pluggable.php:1254
+[06-Dec-2019 17:28:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/chef.php on line 24
+[06-Dec-2019 17:29:33 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/meal/section-templates/chef.php on line 24
+[06-Dec-2019 17:29:57 UTC] PHP Notice:  Undefined index: chef in /app/public/wp-content/themes/meal/section-templates/chef.php on line 29
+[06-Dec-2019 17:29:57 UTC] PHP Stack trace:
+[06-Dec-2019 17:29:57 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:29:57 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:29:57 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:29:57 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:29:57 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:29:57 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:29:57 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:29:57 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:31:08 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:31:08 UTC] PHP Stack trace:
+[06-Dec-2019 17:31:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:31:08 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:31:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:31:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:31:08 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:31:08 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:31:08 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:31:08 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:31:08 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:31:08 UTC] PHP Stack trace:
+[06-Dec-2019 17:31:08 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:31:08 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:31:08 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:31:08 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:31:08 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:31:08 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:31:08 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:31:08 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:32:11 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:32:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:32:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:32:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:32:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:32:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:32:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:32:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:32:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:32:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:32:11 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:32:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:32:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:32:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:32:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:32:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:32:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:32:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:32:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:32:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:32:32 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:32:32 UTC] PHP Stack trace:
+[06-Dec-2019 17:32:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:32:32 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:32:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:32:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:32:32 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:32:32 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:32:32 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:32:32 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:32:32 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:32:32 UTC] PHP Stack trace:
+[06-Dec-2019 17:32:32 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:32:32 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:32:32 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:32:32 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:32:32 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:32:32 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:32:32 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:32:32 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:35:05 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:35:05 UTC] PHP Stack trace:
+[06-Dec-2019 17:35:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:35:05 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:35:05 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:35:05 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:35:05 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:35:05 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:35:05 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:35:05 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:35:05 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:35:05 UTC] PHP Stack trace:
+[06-Dec-2019 17:35:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:35:05 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:35:05 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:35:05 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:35:05 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:35:05 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:35:05 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:35:05 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:35:49 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:35:49 UTC] PHP Stack trace:
+[06-Dec-2019 17:35:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:35:49 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:35:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:35:49 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:35:49 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:35:49 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:35:49 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:35:49 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:35:49 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:35:49 UTC] PHP Stack trace:
+[06-Dec-2019 17:35:49 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:35:49 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:35:49 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:35:49 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:35:49 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:35:49 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:35:49 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:35:49 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:36:02 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:36:02 UTC] PHP Stack trace:
+[06-Dec-2019 17:36:02 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:36:02 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:36:02 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:36:02 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:36:02 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:36:02 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:36:02 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:36:02 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:36:02 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:36:02 UTC] PHP Stack trace:
+[06-Dec-2019 17:36:02 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:36:02 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:36:02 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:36:02 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:36:02 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:36:02 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:36:02 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:36:02 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:37:09 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:37:09 UTC] PHP Stack trace:
+[06-Dec-2019 17:37:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:37:09 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:37:09 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:37:09 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:37:09 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:37:09 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:37:09 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:37:09 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:37:09 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:37:09 UTC] PHP Stack trace:
+[06-Dec-2019 17:37:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:37:09 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:37:09 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:37:09 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:37:09 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:37:09 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:37:09 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:37:09 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:38:04 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:38:04 UTC] PHP Stack trace:
+[06-Dec-2019 17:38:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:38:04 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:38:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:38:04 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:38:04 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:38:04 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:38:04 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:38:04 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:38:04 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:38:04 UTC] PHP Stack trace:
+[06-Dec-2019 17:38:04 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:38:04 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:38:04 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:38:04 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:38:04 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:38:04 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:38:04 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:38:04 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:38:50 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:38:50 UTC] PHP Stack trace:
+[06-Dec-2019 17:38:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:38:50 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:38:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:38:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:38:50 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:38:50 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:38:50 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:38:50 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:38:50 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:38:50 UTC] PHP Stack trace:
+[06-Dec-2019 17:38:50 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:38:50 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:38:50 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:38:50 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:38:50 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:38:50 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:38:50 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:38:50 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:45:11 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:45:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:45:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:45:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:45:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:45:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:45:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:45:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:45:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:45:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:45:11 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:45:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:45:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:45:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:45:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:45:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:45:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:45:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:45:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:45:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:45:11 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:45:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:45:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:45:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:45:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:45:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:45:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:45:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:45:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:45:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:45:11 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:45:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:45:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:45:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:45:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:45:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:45:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:45:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:45:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:45:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:45:11 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:45:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:45:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:45:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:45:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:45:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:45:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:45:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:45:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:45:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:45:11 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:45:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:45:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:45:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:45:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:45:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:45:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:45:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:45:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:45:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:47:13 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:47:13 UTC] PHP Stack trace:
+[06-Dec-2019 17:47:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:47:13 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:47:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:47:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:47:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:47:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:47:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:47:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:47:13 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:47:13 UTC] PHP Stack trace:
+[06-Dec-2019 17:47:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:47:13 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:47:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:47:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:47:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:47:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:47:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:47:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:47:13 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:47:13 UTC] PHP Stack trace:
+[06-Dec-2019 17:47:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:47:13 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:47:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:47:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:47:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:47:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:47:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:47:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:47:13 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:47:13 UTC] PHP Stack trace:
+[06-Dec-2019 17:47:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:47:13 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:47:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:47:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:47:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:47:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:47:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:47:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:47:13 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:47:13 UTC] PHP Stack trace:
+[06-Dec-2019 17:47:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:47:13 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:47:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:47:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:47:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:47:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:47:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:47:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:47:13 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:47:13 UTC] PHP Stack trace:
+[06-Dec-2019 17:47:13 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:47:13 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:47:13 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:47:13 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:47:13 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:47:13 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:47:13 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:47:13 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:50:17 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:50:17 UTC] PHP Stack trace:
+[06-Dec-2019 17:50:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:50:17 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:50:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:50:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:50:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:50:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:50:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:50:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:50:17 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 51
+[06-Dec-2019 17:50:17 UTC] PHP Stack trace:
+[06-Dec-2019 17:50:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:50:17 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:50:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:50:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:50:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:50:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:50:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:50:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:50:17 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:50:17 UTC] PHP Stack trace:
+[06-Dec-2019 17:50:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:50:17 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:50:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:50:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:50:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:50:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:50:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:50:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:50:17 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:50:17 UTC] PHP Stack trace:
+[06-Dec-2019 17:50:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:50:17 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:50:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:50:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:50:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:50:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:50:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:50:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:50:17 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 51
+[06-Dec-2019 17:50:17 UTC] PHP Stack trace:
+[06-Dec-2019 17:50:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:50:17 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:50:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:50:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:50:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:50:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:50:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:50:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:50:17 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 55
+[06-Dec-2019 17:50:17 UTC] PHP Stack trace:
+[06-Dec-2019 17:50:17 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:50:17 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:50:17 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:50:17 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:50:17 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:50:17 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:50:17 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:50:17 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:51:10 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2019 17:51:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:51:10 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:51:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:51:10 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:51:10 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:51:10 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:51:10 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:51:10 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:51:10 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2019 17:51:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:51:10 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:51:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:51:10 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:51:10 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:51:10 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:51:10 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:51:10 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:51:10 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2019 17:51:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:51:10 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:51:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:51:10 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:51:10 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:51:10 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:51:10 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:51:10 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:51:10 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2019 17:51:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:51:10 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:51:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:51:10 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:51:10 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:51:10 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:51:10 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:51:10 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:51:10 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2019 17:51:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:51:10 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:51:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:51:10 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:51:10 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:51:10 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:51:10 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:51:10 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:51:10 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:51:10 UTC] PHP Stack trace:
+[06-Dec-2019 17:51:10 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:51:10 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:51:10 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:51:10 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:51:10 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:51:10 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:51:10 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:51:10 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:52:22 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:52:22 UTC] PHP Stack trace:
+[06-Dec-2019 17:52:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:52:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:52:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:52:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:52:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:52:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:52:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:52:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:52:22 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:52:22 UTC] PHP Stack trace:
+[06-Dec-2019 17:52:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:52:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:52:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:52:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:52:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:52:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:52:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:52:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:52:22 UTC] PHP Notice:  Undefined index: twitter in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:52:22 UTC] PHP Stack trace:
+[06-Dec-2019 17:52:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:52:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:52:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:52:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:52:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:52:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:52:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:52:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:52:22 UTC] PHP Notice:  Undefined index: instagram in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:52:22 UTC] PHP Stack trace:
+[06-Dec-2019 17:52:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:52:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:52:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:52:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:52:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:52:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:52:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:52:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:56:43 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:56:43 UTC] PHP Stack trace:
+[06-Dec-2019 17:56:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:56:43 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:56:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:56:43 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:56:43 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:56:43 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:56:43 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:56:43 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:56:43 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:56:43 UTC] PHP Stack trace:
+[06-Dec-2019 17:56:43 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:56:43 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:56:43 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:56:43 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:56:43 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:56:43 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:56:43 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:56:43 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:57:11 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:57:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:57:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:57:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:57:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:57:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:57:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:57:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:57:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:57:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:57:11 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:57:11 UTC] PHP Stack trace:
+[06-Dec-2019 17:57:11 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:57:11 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:57:11 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:57:11 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:57:11 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:57:11 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:57:11 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:57:11 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:58:25 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:58:25 UTC] PHP Stack trace:
+[06-Dec-2019 17:58:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:58:25 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:58:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:58:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:58:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:58:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:58:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:58:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:58:25 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:58:25 UTC] PHP Stack trace:
+[06-Dec-2019 17:58:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:58:25 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:58:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:58:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:58:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:58:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:58:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:58:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:58:25 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:58:25 UTC] PHP Stack trace:
+[06-Dec-2019 17:58:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:58:25 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:58:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:58:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:58:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:58:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:58:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:58:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:58:25 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:58:25 UTC] PHP Stack trace:
+[06-Dec-2019 17:58:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:58:25 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:58:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:58:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:58:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:58:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:58:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:58:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:58:25 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:58:25 UTC] PHP Stack trace:
+[06-Dec-2019 17:58:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:58:25 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:58:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:58:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:58:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:58:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:58:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:58:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:58:25 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:58:25 UTC] PHP Stack trace:
+[06-Dec-2019 17:58:25 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:58:25 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:58:25 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:58:25 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:58:25 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:58:25 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:58:25 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:58:25 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:59:46 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:59:46 UTC] PHP Stack trace:
+[06-Dec-2019 17:59:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:59:46 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:59:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:59:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:59:46 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:59:46 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:59:46 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:59:46 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:59:46 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:59:46 UTC] PHP Stack trace:
+[06-Dec-2019 17:59:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:59:46 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:59:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:59:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:59:46 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:59:46 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:59:46 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:59:46 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:59:46 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:59:46 UTC] PHP Stack trace:
+[06-Dec-2019 17:59:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:59:46 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:59:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:59:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:59:46 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:59:46 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:59:46 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:59:46 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:59:46 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 17:59:46 UTC] PHP Stack trace:
+[06-Dec-2019 17:59:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:59:46 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:59:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:59:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:59:46 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:59:46 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:59:46 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:59:46 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:59:46 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 17:59:46 UTC] PHP Stack trace:
+[06-Dec-2019 17:59:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:59:46 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:59:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:59:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:59:46 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:59:46 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:59:46 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:59:46 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 17:59:46 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 17:59:46 UTC] PHP Stack trace:
+[06-Dec-2019 17:59:46 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 17:59:46 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 17:59:46 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 17:59:46 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 17:59:46 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 17:59:46 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 17:59:46 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 17:59:46 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:14 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:00:14 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:14 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:14 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:00:14 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:14 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:14 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:00:14 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:14 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:14 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:00:14 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:14 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:14 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:00:14 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:14 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:14 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:00:14 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:14 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:14 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:14 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:14 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:14 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:47 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:00:47 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:47 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:47 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:47 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:47 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:47 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:47 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:00:47 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:47 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:47 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:47 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:47 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:47 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:47 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:00:47 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:47 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:47 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:47 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:47 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:47 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:47 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:00:47 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:47 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:47 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:47 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:47 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:47 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:47 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:00:47 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:47 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:47 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:47 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:47 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:47 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:47 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:00:47 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:47 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:47 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:47 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:47 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:47 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:47 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:47 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:47 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:52 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:00:52 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:52 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:52 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:52 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:52 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:52 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:52 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:00:52 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:52 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:52 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:52 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:52 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:52 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:52 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:00:52 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:52 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:52 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:52 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:52 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:52 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:52 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:00:52 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:52 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:52 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:52 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:52 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:52 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:52 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:00:52 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:52 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:52 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:52 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:52 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:52 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:00:52 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:00:52 UTC] PHP Stack trace:
+[06-Dec-2019 18:00:52 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:00:52 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:00:52 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:00:52 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:00:52 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:00:52 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:00:52 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:00:52 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:05:22 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:05:22 UTC] PHP Stack trace:
+[06-Dec-2019 18:05:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:05:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:05:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:05:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:05:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:05:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:05:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:05:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:05:22 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:05:22 UTC] PHP Stack trace:
+[06-Dec-2019 18:05:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:05:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:05:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:05:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:05:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:05:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:05:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:05:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:05:22 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:05:22 UTC] PHP Stack trace:
+[06-Dec-2019 18:05:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:05:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:05:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:05:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:05:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:05:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:05:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:05:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:05:22 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:05:22 UTC] PHP Stack trace:
+[06-Dec-2019 18:05:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:05:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:05:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:05:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:05:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:05:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:05:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:05:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:05:22 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:05:22 UTC] PHP Stack trace:
+[06-Dec-2019 18:05:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:05:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:05:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:05:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:05:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:05:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:05:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:05:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:05:22 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:05:22 UTC] PHP Stack trace:
+[06-Dec-2019 18:05:22 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:05:22 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:05:22 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:05:22 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:05:22 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:05:22 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:05:22 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:05:22 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:06:23 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:06:23 UTC] PHP Stack trace:
+[06-Dec-2019 18:06:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:06:23 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:06:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:06:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:06:23 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:06:23 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:06:23 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:06:23 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:06:23 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:06:23 UTC] PHP Stack trace:
+[06-Dec-2019 18:06:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:06:23 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:06:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:06:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:06:23 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:06:23 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:06:23 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:06:23 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:06:23 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:06:23 UTC] PHP Stack trace:
+[06-Dec-2019 18:06:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:06:23 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:06:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:06:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:06:23 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:06:23 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:06:23 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:06:23 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:06:23 UTC] PHP Notice:  Undefined index: facebook in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:06:23 UTC] PHP Stack trace:
+[06-Dec-2019 18:06:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:06:23 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:06:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:06:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:06:23 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:06:23 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:06:23 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:06:23 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:06:23 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:06:23 UTC] PHP Stack trace:
+[06-Dec-2019 18:06:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:06:23 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:06:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:06:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:06:23 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:06:23 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:06:23 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:06:23 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:06:23 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:06:23 UTC] PHP Stack trace:
+[06-Dec-2019 18:06:23 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:06:23 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:06:23 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:06:23 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:06:23 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:06:23 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:06:23 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:06:23 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:07:34 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:07:34 UTC] PHP Stack trace:
+[06-Dec-2019 18:07:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:07:34 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:07:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:07:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:07:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:07:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:07:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:07:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:07:34 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:07:34 UTC] PHP Stack trace:
+[06-Dec-2019 18:07:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:07:34 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:07:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:07:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:07:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:07:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:07:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:07:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:07:34 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:07:34 UTC] PHP Stack trace:
+[06-Dec-2019 18:07:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:07:34 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:07:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:07:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:07:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:07:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:07:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:07:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:07:34 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 48
+[06-Dec-2019 18:07:34 UTC] PHP Stack trace:
+[06-Dec-2019 18:07:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:07:34 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:07:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:07:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:07:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:07:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:07:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:07:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:07:34 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 52
+[06-Dec-2019 18:07:34 UTC] PHP Stack trace:
+[06-Dec-2019 18:07:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:07:34 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:07:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:07:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:07:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:07:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:07:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:07:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[06-Dec-2019 18:07:34 UTC] PHP Notice:  Undefined index: social_profiles in /app/public/wp-content/themes/meal/section-templates/chef.php on line 56
+[06-Dec-2019 18:07:34 UTC] PHP Stack trace:
+[06-Dec-2019 18:07:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[06-Dec-2019 18:07:34 UTC] PHP   2. require() /app/public/index.php:17
+[06-Dec-2019 18:07:34 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[06-Dec-2019 18:07:34 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:78
+[06-Dec-2019 18:07:34 UTC] PHP   5. get_template_part() /app/public/wp-content/themes/meal/page-templates/landing.php:29
+[06-Dec-2019 18:07:34 UTC] PHP   6. locate_template() /app/public/wp-includes/general-template.php:168
+[06-Dec-2019 18:07:34 UTC] PHP   7. load_template() /app/public/wp-includes/template.php:671
+[06-Dec-2019 18:07:34 UTC] PHP   8. require() /app/public/wp-includes/template.php:724
+[07-Dec-2019 03:08:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 569
+[07-Dec-2019 03:08:27 UTC] PHP Stack trace:
+[07-Dec-2019 03:08:27 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Dec-2019 03:08:27 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[07-Dec-2019 03:08:27 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[07-Dec-2019 03:08:27 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[07-Dec-2019 03:08:27 UTC] PHP   5. wp_update_themes() /app/public/wp-includes/class-wp-hook.php:286
+[07-Dec-2019 03:08:27 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:569
+[07-Dec-2019 03:08:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[07-Dec-2019 03:08:27 UTC] PHP Stack trace:
+[07-Dec-2019 03:08:27 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Dec-2019 03:08:27 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[07-Dec-2019 03:08:27 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[07-Dec-2019 03:08:27 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[07-Dec-2019 03:08:27 UTC] PHP   5. wp_version_check() /app/public/wp-includes/class-wp-hook.php:286
+[07-Dec-2019 03:08:27 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:160
+[07-Dec-2019 03:08:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 384
+[07-Dec-2019 03:08:27 UTC] PHP Stack trace:
+[07-Dec-2019 03:08:27 UTC] PHP   1. {main}() /app/public/wp-cron.php:0
+[07-Dec-2019 03:08:27 UTC] PHP   2. do_action_ref_array() /app/public/wp-cron.php:133
+[07-Dec-2019 03:08:27 UTC] PHP   3. WP_Hook->do_action() /app/public/wp-includes/plugin.php:531
+[07-Dec-2019 03:08:27 UTC] PHP   4. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[07-Dec-2019 03:08:27 UTC] PHP   5. wp_update_plugins() /app/public/wp-includes/class-wp-hook.php:286
+[07-Dec-2019 03:08:27 UTC] PHP   6. trigger_error() /app/public/wp-includes/update.php:384

@@ -7,7 +7,7 @@ function meal_banner_section_metabox($metaboxes){
     if(isset($_REQUEST['post']) || isset($_REQUEST['post_ID'])){
         $meal_section_id = empty($_REQUEST['post_ID']) ? $_REQUEST['post'] : $_REQUEST['post_ID'];
     }
-
+echo get_post_type($meal_section_id);
     //Class 25.10
     if('section' != get_post_type($meal_section_id)){
         return $metaboxes;

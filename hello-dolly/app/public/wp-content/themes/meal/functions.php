@@ -5,12 +5,14 @@
 require_once get_theme_file_path("/lib/csf/cs-framework.php");
 require_once get_theme_file_path("/inc/metaboxes/section.php");
 require_once get_theme_file_path("/inc/metaboxes/page.php");
-//Class 25.09
+//Class 25.9
 require_once get_theme_file_path("/inc/metaboxes/section-banner.php");
 //Class 25.10
 require_once get_theme_file_path("/inc/metaboxes/section-featured.php");
 //Class 25.11
 require_once get_theme_file_path("/inc/metaboxes/section-gallery.php");
+//Class 25.12
+require_once get_theme_file_path("/inc/metaboxes/section-chef.php");
 
 define('CS_ACTIVE_FRAMEWORK', false);
 define('CS_ACTIVE_METABOX', true);
@@ -48,9 +50,9 @@ add_action('after_setup_theme','meal_theme_setup');
 function meal_theme_assets(){
     //FONTS
     wp_enqueue_style('meal-fonts','//fonts.googleapis.com/css?family=Playfair+Display:300,400,700,800|Open+Sans:300,400,700"');
-    wp_enqueue_style('ionicons','/fonts/ionicons/css/ionicons.min.css');
-    wp_enqueue_style('fontawesome','/fonts/fontawesome/css/font-awesome.min.css');
-    wp_enqueue_style('flaticon','/fonts/flaticon/font/flaticon.css');
+    wp_enqueue_style('ionicons',get_theme_file_uri('/assets/fonts/ionicons/css/ionicons.min.css'), null, 1.0);
+    wp_enqueue_style('fontawesome',get_theme_file_uri('/assets/fonts/fontawesome/css/font-awesome.min.css'),null, 1.0);
+    wp_enqueue_style('flaticon',get_theme_file_uri('/assets/fonts/flaticon/font/flaticon.css'),null, 1.0);
     
     //CSS FILES
     wp_enqueue_style('bootstrap-css',get_theme_file_uri('/assets/css/bootstrap.css'),null,1.0);
